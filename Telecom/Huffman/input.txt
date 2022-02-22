@@ -1,0 +1,4 @@
+L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale. 
+Cette distribution est en tout cas comparable avec celle du français standard.
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire.
+Il trouve ses racines dans une oeuvre de la littérature latine classique.

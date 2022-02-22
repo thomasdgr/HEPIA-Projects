@@ -1,0 +1,6 @@
+address: 52.87.246.74
+id: 1
+neighbours:
+- address: 3.88.217.240
+  edge_weight: 1
+  id: 3

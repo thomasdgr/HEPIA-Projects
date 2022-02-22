@@ -1,0 +1,46 @@
+import java_cup.runtime.*;
+import java.util.Vector;
+import java.io.*;
+
+parser code {:
+	//public int t = 0;
+:}
+
+action code {:
+	public int i = 0;
+:}
+
+terminal Integer NB;
+terminal String STR;
+terminal SLASH, CLOSE, EQUAL, COMA, OPEN, TICK;
+
+non terminal s, a, b, c, d;
+
+// NOTE : STR:m correspond à la valeur actuelle de STR
+
+// texte complet
+s ::= c OPEN a CLOSE s{: System.out.println("\ni=" + i); :}
+;
+
+// balise complete <...>
+a ::= STR:m STR:n EQUAL TICK b:o TICK {: System.out.print("+" + m + " "); i++; :} |
+						  STR:m SLASH {: System.out.print( m + " "); :} |
+	  					  SLASH STR:m {: System.out.print("-" + m + " "); i--; :} |
+	  					        STR:m {: System.out.print("+" + m + " "); i++; :}
+;  
+
+// nb entier on décimal 
+b ::= NB:n COMA NB:p {: ; :} |
+	            NB:n {: ; :}
+;
+
+// texte sans balise
+c ::= STR:m {: ; :} | 
+			{: ; :}
+;
+
+/*
+d ::= ... {: System.out.println("plop"); :} |
+          {: System.out.println("plop"); :}
+;
+*/

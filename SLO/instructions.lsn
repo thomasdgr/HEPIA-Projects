@@ -1,0 +1,102 @@
+r0 = 7
+bl [r7] initialisation
+bl [r7] updateAffichage
+bl [r7] setData
+bl [r7] waitDisplay
+bl [r7] detecterColision
+bl [r7] renouvelerObstacle
+b -5
+
+initialisation:
+r5 = 1
+r6 = 140
+st r5,0[r6]
+r1 = 4
+r5 = 160 
+ld r2,0[r5] 
+r5 = 128
+ld r3,0[r5]
+r4 = 15
+br [r7]
+
+updateAffichage:
+r6 = 1
+r4 = r4 - r6
+r6 = 200
+ld r5,0[r6]
+r6 = 1
+r6 = r6 - r5
+bcz 5
+r6 = 2
+r6 = r6 - r5
+bcz 8
+br[r7]
+r6 = 1
+r0 = r0 - r6
+bcn 2
+br [r7]
+r0 = 0
+br [r7]
+r6 = 1
+r5 = r0 + r6
+r6 = 16
+r6 = r5 - r6
+bcz 4
+r6 = 0
+r0 = r5 + r6
+br [r7]
+r0 = 15
+br [r7]
+
+
+detecterColision:
+r6 = 1
+r5 = r4 - r6
+r6 = r1 - r5
+bcz 2
+br [r7]
+r5 = r0 - r2
+bcn 4
+r5 = r3 - r0
+bcn 2
+br [r7]
+r5 = 1
+r6 = 150
+st r5,0[r6]
+bl [r7] waitDisplay
+r5 = 0
+r6 = 150
+st r5,0[r6]
+r0 = 7
+r7 = 1
+br [r7]
+
+renouvelerObstacle:
+r5 = 2
+r6 = r4 - r5
+bcz 2
+br [r7]
+r5 = 1
+r6 = 180
+st r5,0[r6]
+r7 = 1
+br [r7]
+
+setData:
+r5 = 220
+st r4,0[r5]
+r5 = 230
+st r0,0[r5]
+r5 = 240
+st r1,0[r5]
+br [r7]
+
+waitDisplay:
+r6 = 0
+r5 = 1
+r6 = r6 + r5
+r5 = 42
+r5 = r6 - r5
+bcz 2
+b -5
+br [r7]

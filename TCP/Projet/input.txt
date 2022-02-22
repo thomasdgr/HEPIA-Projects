@@ -1,0 +1,42 @@
+programme nombreSecret
+
+entier min, max, crt, consigne;
+booleen trouve;
+debutprg
+    ecrire "Bonjour, je vais devoir deviner le nombre auquel vous pensez";
+	ecrire "\nEntre 0 et quelle valeur souhaitez vous jouer ? : ";
+	lire max;
+	tantque max <= 0 faire
+		ecrire "\nEntre 0 et quelle valeur souhaitez vous jouer ? :";
+    	lire max;
+	fintantque
+    ecrire "\n-> Si votre nombre est plus grand que celui que je propose, entrez 1";
+    ecrire "\n-> Si votre nombre est plus petit que celui que je propose, entrez -1";
+    ecrire "\n-> Si votre nombre est le même que celui que je propose, entrez 0\n\n";
+	min = 0;
+	crt = (max - min) / 2;
+	consigne = 2;
+	trouve = faux;
+    tantque (trouve == faux) faire
+		tantque (consigne <> 1) et (consigne <> -1) et (consigne <> 0) faire
+			ecrire "Votre nombre est-il plus grand, plus petit ou égal à ";
+			ecrire crt;
+			ecrire " ? : ";
+    		lire consigne;
+		fintantque
+		si (consigne == 0) alors
+			trouve = vrai;
+	    sinon
+			si (consigne == -1) alors
+				max = crt;
+			sinon
+				min = crt;
+			finsi
+			crt = (max + min ) / 2;
+		finsi
+		consigne = 2;
+	fintantque
+	ecrire "je gagne toujours à ce jeu ! votre nombre était : ";
+	ecrire crt;
+	ecrire "\n";
+finprg

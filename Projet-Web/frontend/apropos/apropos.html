@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hessncf</title>
+    <meta name="author" content="Thomas & Dorian">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="apropos.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../caroussel.css">
+    <link rel="stylesheet" href="../content-box.css">
+    <link rel="icon" href="../images/favicon.ico"/>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="dropdown-menu">
+            <img id ="button" src="../images/button.png">
+            <div class="dropdown-content">
+                <a class="border" href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+                <a class="border" href="../classements/classements.html">Classements</a>
+                <a class="border" href="../succes/succes.html">Succès</a>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </div>
+        </div>
+        <a class="icon" href="../index.html">
+            <img id = "logo" src="../images/logo.png">
+        </a>
+        <ul>
+            <li>
+                <a href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+            </li>
+            <li>
+                <a href="../classements/classements.html">Classements</a>
+            </li>
+            <li>
+                <a href="../succes/succes.html">Succès</a>
+            </li>
+            <li>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="caroussel">
+        <img src="../images/poignee_main.png" alt>   
+        <div class="content-box">
+            <div class="indexes">
+                <ul>
+                    <li>
+                        <img src="../images/interrogation.png">    
+                        <a class="menu_apropos" onclick="who_we_are()">Qui somme-nous ?</a>
+                    </li>
+                    <li> 
+                        <img src="../images/values.png">    
+                        <a class="menu_apropos" onclick="our_values()">Nos valeurs</a>
+                    </li>
+                    <li>
+                        <img src="../images/icone_poignee_main.png">    
+                        <a class="menu_apropos" onclick="emplois()">Emplois</a>
+                    </li>
+                </ul>                  
+                </div>
+                <div class="infos">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text_box">
+        <ul >
+            <li>
+                <h1 id="titre"></h1>
+            </li>
+            <li>
+                <a id="res"></a>
+            </li>
+            <li>
+                <h2 id="titre2"></h2>
+            </li>
+            <li>
+                <a id="res2"></a>
+            </li>
+        </ul>
+    </div>
+    <img id="tete" src="../images/dorian_et_thomas.png">    
+    <img id="arbre" src="../images/arbre.png">    
+
+    <div class="footer">
+        <ul>
+            <li>
+                <a class="menu_sub" href="../apropos/apropos.html">A Propos</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://www.sncf.com/fr">Le vrai site de la sncf</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="../cgu/cgu.html">Mentions légales & CGU</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://youtu.be/awmQrt_AERY">Données personnelles & cookies</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script type="text/javascript" src="apropos.js"></script>
+
+</html>

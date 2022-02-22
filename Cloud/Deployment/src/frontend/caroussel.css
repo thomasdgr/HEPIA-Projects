@@ -1,0 +1,47 @@
+.caroussel{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+}
+
+div#slider{
+    overflow: hidden;
+    height: 600px;
+}
+
+.caroussel > img{ 
+    width: 100%;
+}
+
+@keyframes slidy{
+     0% {left: 0%;}
+    15% {left: 0%;}
+    20% {left: -100%;}
+    35% {left: -100%;}
+    40% {left: -200%;}
+    55% {left: -200%;}
+    60% {left: -300%;}
+    75% {left: -300%;}
+    80% {left: -400%;}
+   100% {left: -400%;}
+}
+    
+
+div#slider > figure > img{ 
+    width: 20%;
+    float: left;
+    min-height: 600px;
+}
+
+div#slider > figure{ 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 45s slidy infinite; 
+}

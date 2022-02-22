@@ -1,0 +1,12 @@
+on ouvre le crackme 5 avec ghidra
+on voit que un if compart les longeurs de mot de passe
+à gauche on observe que l'adresse est 0x00...12cf
+on lance gdb pour trouver la taille du mot de passe
+"disass main" pour trouver l'adresse et le numéro de la ligne (310) correspondant
+"run password" les adresses changent, mais les lignes restent les mêmes donc on prend l'adresse correspondant à la ligne 310
+"b *adresse trouvée"
+"run password" puis on s'arrete au breakpoint et on voit que la taille est de 15 caractères
+donc on peut quitter gdb et chercher le mot de passe (qui commence par m)
+
+
+-> mKjBeDaYpjvraet

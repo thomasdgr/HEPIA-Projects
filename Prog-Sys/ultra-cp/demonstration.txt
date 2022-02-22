@@ -1,0 +1,34 @@
+démonstration :
+    
+    echo "bonjour, voici le test1" > test1.txt
+    echo "bonsoir, voici le test2" > test2.txt
+    ./ultra-cp test1.txt
+    ./ultra-cp test2.txt
+
+    ./ultra-cp test1.txt test3.txt -> la copie fonctionne
+    cat test3.txt
+    ./ultra-cp test3.txt
+    
+    ./ultra-cp test1.txt test2.txt test3.txt -> la copie ne marche pas
+    ./ultra-cp test1.txt test2.txt test3/ -> la copie marche
+    ./ultra-cp test3/
+
+    echo "bonjour, voici le nouveau test1" > test1.txt
+    ./ultra-cp test1.txt test3.txt -> change bien test3.txt
+    cat test3.txt
+    ./ultra-cp test2.txt test3.txt -> ne remplace pas test3.txt
+    chmod 777 test2.txt 
+    ./ultra-cp -a test2.txt test3.txt -> modifie les droits de test3.txt sans changer le contenu
+    cat test3.txt
+    ./ultra-cp test3.txt
+
+    cd images/
+    ln -s carotte.png link
+    cd ..
+    ./ultra-cp images/ test1.txt test2.txt dest/ -> copie le lien par defaut
+    ./ultra-cp -f images/ dest/ -> copie le lien correctement
+    stat dest/link -> c'est copié comme un fichier regulier
+
+    ./ultra-cp images/ test1.txt test2.txt test3.txt test3/ dest/ -> la copie fonctionne
+    ./ultra-cp . dest/ -> la copie ne fonctionne pas
+    stat dest/link -> copié comme un lien

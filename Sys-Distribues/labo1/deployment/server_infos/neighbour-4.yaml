@@ -1,0 +1,12 @@
+address: 3.88.115.220
+id: 4
+neighbours:
+- address: 54.159.197.163
+  edge_weight: 1
+  id: 2
+- address: 3.88.217.240
+  edge_weight: 1
+  id: 3
+- address: 100.26.194.172
+  edge_weight: 1
+  id: 6

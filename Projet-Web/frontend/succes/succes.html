@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hessncf</title>
+    <meta name="author" content="Thomas & Dorian">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="succes.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../caroussel.css">
+    <link rel="icon" href="../images/favicon.ico"/>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="dropdown-menu">
+            <img id ="button" src="../images/button.png">
+            <div class="dropdown-content">
+                <a class="border" href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+                <a class="border" href="../classements/classements.html">Classements</a>
+                <a class="border" href="succes.html">Succès</a>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </div>
+        </div>
+        <a class="icon" href="../index.html">
+            <img id = "logo" src="../images/logo.png">
+        </a>
+        <ul>
+            <li>
+                <a href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+            </li>
+            <li>
+                <a href="../classements/classements.html">Classements</a>
+            </li>
+            <li>
+                <a href="../succes/succes.html">Succès</a>
+            </li>
+            <li>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="caroussel">
+        <div id="slider">
+            <figure>
+                <img src="../images/coupe.png" alt>
+                <img src="../images/course.png" alt>    
+                <img src="../images/sonic.png" alt>    
+                <img src="../images/quai.png" alt>
+                <img src="../images/tibo.png" alt>    
+            </figure>
+        </div>
+        <div class="content-box">
+            <ul>
+                <li>
+                    <label for="usernamelbl">Nom d'utilisateur</label><br>
+                    <input class="input_el" type="text" id="user" placeholder="Dorian" required>
+                </li>
+                <li> 
+                    <label for="destination">Mot de passe</label><br>
+                    <input class="input_el" type="password" id="pass" placeholder="prout" required>
+                </li>
+                <li>
+                    <input type="submit" id="butt" value="login" size="30" onclick="connexion()" ><br>
+                </li>
+                <li>
+                    <input type="submit" id="butt" value="logout" class="right" size="30" onclick="deconnexion()" ><br>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="succes">
+        <ul>
+            <li>
+                <label for="ajouterSucces">Ajouter un succès à ma liste</label><br>
+                <input class="input_el" type="text" id="addSucces" placeholder="mon succès">
+            </li>
+                <input type="submit" id="butt" value="ajouter" size="30" onclick="postSucces()"><br>
+            </li>
+        </ul>
+        <ul id="mySucces">
+            <!--<li>
+                <div class="ligne">
+                    <img id="img1-1" src="../images/check.png">
+                    <img id="img1-2" src="../images/no.png">  
+                    <p id="text1">test</p>
+                </div>
+            </li>-->
+        </ul>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>
+                <a class="menu_sub" href="../apropos/apropos.html">A Propos</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://www.sncf.com/fr">Le vrai site de la sncf</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="../cgu/cgu.html">Mentions légales & CGU</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://youtu.be/awmQrt_AERY">Données personnelles & cookies</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script type="text/javascript" src="succes.js"></script>
+
+</html>

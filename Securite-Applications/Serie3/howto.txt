@@ -1,0 +1,4 @@
+gcc -fPIC -c strlen-hijack.c -o strlen-hijack.o
+gcc -shared -o strlen-hijack.so strlen-hijack.o
+
+LD_PRELOAD="./strlen-hijack.so" ./voyance1 password

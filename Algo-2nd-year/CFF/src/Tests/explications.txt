@@ -1,0 +1,25 @@
+ORGANISATION DES DOSSIERS
+=========================
+
+Le dossier commandes de test est l'ensemble des fichiers utilisés comme
+paramètres pour les exécutions. Ils sont séparé en tests différents décrits dans
+le fichier "commandes_de_test/tests.txt"
+
+Le dossier "results_out" contient la sortie standard de chacun des tests 
+dans des fichiers de référence (noms sous la forme "_X.txt").
+
+Le dossier "errors_out" contient la sortie d'erreur de chacun des tests dans des fichiers
+de la forme "_X.txt".
+
+La commande: 
+      cat Tests/commandes_de_test/cmd_a_tester_pt_1.txt | java Main > Tests/results_out/my_results_1.txt
+permet de stocker la sortie de votre programme pour le test
+"commandes_de_test/cmd_a_tester_pt_3.txt" dans le fichier "results_out/my_results_3.txt"
+
+Ensuite, la commande:
+      diff Tests/results_out/my_results_1.txt Tests/results_out/_1.txt
+permet de comparer votre fichier de résultats avec le fichier de référence.
+
+
+
+

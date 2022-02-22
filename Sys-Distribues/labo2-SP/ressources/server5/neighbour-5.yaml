@@ -1,0 +1,7 @@
+address: 54.159.114.148
+id: 5
+neighbours:
+- address: 34.239.123.202
+  id: 4
+- address: 3.83.141.159
+  id: 6

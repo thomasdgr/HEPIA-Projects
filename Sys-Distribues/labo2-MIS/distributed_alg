@@ -1,0 +1,206 @@
+#!/usr/bin/env python3
+'''
+Dagier Thomas, Rod Quentin, 3ème ISC
+Implementation of the Maximum Independent Set using LubyMIS algorithm.
+It uses Python language and socket
+'''
+
+import yaml
+import os
+import sys
+import socket
+import json
+from threading import Thread
+import time
+
+PORT= 50000 # common to every nodes
+MAX_POSSIBLE_ID= 10000
+FOLDER= "big_network"
+
+# global for convenience
+max_id_received = -1 # the greater id among all neighbours
+count_id_received_nbrs = 0 #Counter of id received from remaining neighbours
+is_initialized = False
+
+# take a content (message with any body and job)
+# it can also take an exception
+# (for example if we dont wanna send the message to the sender node)
+def send_neighbours(content, exception = ""):
+    for n in list_neighbours:
+        if n["address"] != exception:
+            send_message(content, n["address"])
+
+# take a content (message with any body and job) and the ip of the sender node
+def send_message(content, addr):
+    # messages are sent in "parallel" using a socket
+    thread = Thread(target = s.sendto, args = (json.dumps(content).encode(), (addr, PORT)))
+    thread.start()
+    # we dont expect for a return value so there is no needs to join() the thread
+
+# take a path to a yaml config file (unique for every node) and return its content
+def read_yaml_file(path):
+    with open(path, "r") as f:
+        try:
+            data = yaml.safe_load(f)
+        except yaml.YAMLError as exc:
+            print(exc)
+    return data
+
+# take an ip address and check if the node is a neighbour to this node
+def is_neighbour(addr):
+    for n in list_neighbours:
+        if n["address"] == addr:
+            return True
+    return False
+
+# take an ip address and remove the matching neighbour to this node
+def pop_neighbour(list_neighbours, addr):
+    for n in list_neighbours:
+        if n["address"] == addr:
+            list_neighbours.remove(n)
+
+# return a random id that will lead towinner or looser status
+def generate_random_ID():
+    return int.from_bytes(os.urandom(4), byteorder='little') % MAX_POSSIBLE_ID
+
+# handling an id message received from a neighbour
+def receive_neighbour_id(content, addr):
+    global max_id_received
+    global count_id_received_nbrs
+    if not is_initialized:
+        return
+    id_neighbour = content["body"]["id"]
+    count_id_received_nbrs += 1
+    if max_id_received < id_neighbour:
+        max_id_received = id_neighbour
+    if count_id_received_nbrs == len(list_neighbours):
+        if my_id > max_id_received:
+           content["job"] = "status"
+           content["body"] = json.loads('"winner"')
+           send_neighbours(content)
+           print(str(id_node) + " is winner")
+           sys.exit()
+
+# send the id to all neighbours
+def send_to_neighbours_my_id(content):
+    content["job"] = "send_id"
+    content["body"] = json.loads('{ "id":' + str(my_id) + '}')
+    # the node sends his id to all his neighbours
+    send_neighbours(content)
+
+# handling an init message.
+def receive_neighbour_init(content, addrToExclude):
+    global is_initialized
+    # we want to init all neighbours except the sender node
+    if not is_initialized:
+        is_initialized = True
+        send_to_neighbours_init(content, addrToExclude)
+        send_to_neighbours_my_id(content)
+
+# send an init message to all neighbours
+def send_to_neighbours_init(content, addrToExclude):
+    # the node sends an "init" message to all neighbours except the sender neighbour
+    send_neighbours(content, addrToExclude)
+
+# handling status message
+def receive_status_message(content, addr):
+    if not is_initialized :
+        return
+    if content["body"] == "winner":
+        receive_winner(content,addr)
+    else:
+        receive_looser(content, addr)
+
+# action when a "winner" status message is received
+# the node who received a winner need to stop his algorithm
+def receive_winner(content, addr):
+    # remove the winner node (the sender)
+    pop_neighbour(list_neighbours, addr)
+    # Broadcast to all other nodes the status of the current node
+    content["body"] = json.loads('"looser"')
+    send_neighbours(content)
+    print(str(id_node) + " is looser")
+    sys.exit()
+
+#action when a looser status message is received
+def receive_looser(content, addr):
+    global count_id_received_nbrs
+    # remove the looser node
+    pop_neighbour(list_neighbours, addr)
+    # we remove a neighbour, so we remove also an id that need to be received
+    count_id_received_nbrs -= 1 if (count_id_received_nbrs > 0) else 0
+    # a node wich receive looser and has no more neighbours is obligatory a winner
+    if len(list_neighbours) == 0:
+        print(str(id_node) + " is winner")
+        sys.exit()
+
+# restart the node for a new stage if the node is neither winner nor looser at the end
+def restart_round(content):
+    global my_id
+    global count_id_received_nbrs
+    global max_id_received
+    # reset all values that will be used in next stage
+    count_id_received_nbrs = 0
+    max_id_received = 0
+    # a new id is generated and send to all remaining neighbours
+    my_id = generate_random_ID()
+    send_to_neighbours_my_id(content)
+
+##### MAIN #####
+if __name__ == "__main__":
+    is_proactive = False
+    try:
+        PORT = int(sys.argv[1])
+        neighbours_infos_filename = sys.argv[2]
+        id_node = int(neighbours_infos_filename.replace("neighbour-", '').replace(".yaml", ''))
+        if sys.argv[3] == "INIT" or sys.argv[3] == "WAIT":
+            is_proactive = True if (sys.argv[3] == "INIT") else False
+        else:
+            raise Exception()
+    except:
+        print("Example of program use: ./distributed_alg num_port neighbour-x.yaml INIT/WAIT ")
+        sys.exit(0)
+
+    # when a message is received, we use the "job" value to call the matching function
+    instructions = {
+        "status": receive_status_message,
+        "init": receive_neighbour_init,
+        "send_id": receive_neighbour_id,
+    }
+
+    server_infos = read_yaml_file(FOLDER + "/" + neighbours_infos_filename)
+    list_neighbours = server_infos["neighbours"]
+    my_id = generate_random_ID()
+
+    # create socket
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.bind((server_infos["address"], PORT))
+    # the timeout is used to know when stage is finished. When timeout expired, it means neighbours no longer have messages to transmit so the stage finished.
+    # we must use timeout socket to avoid deadlocks that happens because we can't know in advance if we will received loosers messages and how many.
+    s.settimeout(0.2)
+
+    # the proactive node has to init his neighbours in order to begin the algorithm
+    if is_proactive:
+        is_initialized = True
+        content = json.loads('{ "job":"init", "body":""}')
+        send_to_neighbours_init(content, None)
+        send_to_neighbours_my_id(content)
+
+    # we never stop the server unless we press ctrl+C
+    while True:
+        try:
+            # wait until we receive a message
+            content, addr = s.recvfrom(1024)
+            # convert the message to json
+            content = json.loads(content)
+            # call the function according to the job read from the message
+            instructions[content["job"]](content, addr[0])
+        # timeout means the node's stage is finished
+        except socket.timeout:
+            # avoid restarting because of a slow neighbour
+            if is_initialized and count_id_received_nbrs == len(list_neighbours):
+                # sleep to let neighbours restart stage and get them syncronised
+                time.sleep(0.3)
+                restart_round(content)
+            # not initilized node has to wait an init message
+    s.close()

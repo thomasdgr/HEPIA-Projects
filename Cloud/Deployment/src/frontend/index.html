@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hessncf</title>
+    <meta name="author" content="Thomas & Dorian">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="accueil/accueil.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="caroussel.css">
+    <link rel="stylesheet" href="content-box.css">
+    <link rel="icon" href="images/favicon.ico"/>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="dropdown-menu">
+            <img id ="button" src="../images/button.png">
+            <div class="dropdown-content">
+                <a class="border" href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+                <a class="border" href="../classements/classements.html">Classements</a>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </div>
+        </div>
+        <a class="icon" href="index.html">
+            <img id = "logo" src="../images/logo.png">
+        </a>
+        <ul>
+            <li>
+                <a href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+            </li>
+            <li>
+                <a href="../classements/classements.html">Classements</a>
+            </li>
+            <li>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="caroussel">
+        <div id="slider">
+            <figure>
+                <img src="../images/greve.png" alt>
+                <img src="../images/travaux.png" alt>    
+                <img src="../images/affichage.png" alt>    
+                <img src="../images/agent.jpg" alt>
+                <img src="../images/accident.png" alt>    
+            </figure>
+            </div>
+        <div class="content-box">
+            <div class="indexes">
+                <ul>
+                    <li>
+                        <img src="../images/clock_icon.png">    
+                        <a href="#" onclick="delay_total()">retard cumulé</a>
+                    </li>
+                    <li>
+                        <img src="../images/train_icon.png">    
+                        <a href="#" onclick="number_trains()">nombre de voyages</a>
+                    </li>
+                    <li>
+                        <img src="../images/calendar_icon.png">    
+                        <a href="#" onclick="delayed_trains()">trains retardés</a>
+                    </li>
+                    <li>
+                        <img src="../images/cancelled_icon.png" >    
+                        <a href="#" onclick="deleted_trains()">trains supprimés</a>
+                    </li>
+                </ul>                  
+            </div>
+            <div class="infos">
+                <p id="res"></p>                    
+            </div>
+        </div>
+    </div>
+
+    <p id="presentation">À la Une</p>
+    
+    <div class="section">
+        <div class="images-container">
+            <img id="image" src="../images/retard.jpg" height="235px">    
+            <p class="img_description">Nouveaux retards à prévoir sur nos lignes hessncf</p>
+        </div>
+        <div class="images-container">
+            <img id="image" src="../images/foule.png" height="235px">
+            <p class="img_description">C'est la hess à la hessncf: transports surchargés à cause du covid</p>
+        </div>
+        <div class="images-container">
+            <img id="image" src="../images/train.jpeg " height="235px" >
+            <p class="img_description">Accident sur la voie reliant Lyon à Belle-idée, le tgv hessncf 69420 a glissé sur une peau de banane</p>
+        </div>
+        <div class="images-container">
+            <img id="image" src="../images/martine.jpg" height="400px">
+            <p class="img_description">Martine n'est encore jamais arrivée en cours à l'heure à cause de la hessncf</p>
+        </div>
+        <div class="images-container">
+            <img id="image" src="../images/controleur.jpg" height="400px">    
+            <p class="img_description">Multiplication des contrôles à bord du train. Fred se ferra une joie de vous facturer 130€ l'amende</p>
+        </div>   
+        <div class="images-container">
+            <img id="image" src="../images/monkeyDLuffy.jpg" height="400px">    
+            <p class="img_description">En Vandée une équipe de singe professionnelle a attaqué un train. Plusieurs heures d'attente sont à prévoir.</p>
+        </div>
+        <div class="images-container">
+            <img id="image" src="../images/uno.png" height="280px">
+            <p class="img_description">Nouvelle Promo exceptionnelle chez la hessncf: 1 ticket acheté = 1 ticket acheté</p>   
+        </div>
+        <div class="images-container">
+            <img id="image" src="../images/zombieSncf.jpg" height="280px">
+            <p class="img_description">Dans ce nouvel épisode nous assisterons aux coulisses des grèves mythiques de la hessncf</p>   
+        </div>
+        <div class="images-container">
+            <img id="image" src="../images/bonne_annee.png" height="280px">
+            <p class="img_description">Nous vous souhaitons une excellente année et vous prions d'excuser la hessncf pour le retard</p>   
+        </div>
+    </div>
+    
+    <div class="footer">
+        <ul>
+            <li>
+                <a class="menu_sub" href="../apropos/apropos.html">A Propos</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://www.sncf.com/fr">Le vrai site de la sncf</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="../cgu/cgu.html">Mentions légales & CGU</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://youtu.be/awmQrt_AERY">Données personnelles & cookies</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script type="text/javascript" src="accueil/accueil.js"></script>
+
+</html>

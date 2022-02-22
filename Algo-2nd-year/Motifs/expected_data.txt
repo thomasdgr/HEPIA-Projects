@@ -1,0 +1,42 @@
+﻿Les motifs:
+===========
+
+1212
+wwww
+bonsbonsbons
+1111abt1111ab
+
+
+Détails du texte:
+=================
+
+212121212131212 wwwwww bwwwawwww bonsbonsbonsbonsbonsabonsbonsbons
+4x1212          3xwwww 1xwwww     4xbonsbonsbons
+
+1111abt1111ab1111abt1111ab111 12121111abt1111ab1212   12w wwwab12 
+2x1111abt1111ab               2x1212 1x1111abt1111ab   rien
+
+w1111abww1111abwww1111abt1111abwwww bonswbonsbonswbonsbonsbons
+1x1111abt1111ab 1xwwww               1xbonsbonsbons
+
+12ww1212www121212wwww
+3x1212 1xwwww
+
+
+Le texte:
+=========
+
+212121212131212 wwwwww bwwwawwww bonsbonsbonsbonsbonsabonsbonsbons 1111abt1111ab1111abt1111ab111 12121111abt1111ab1212 12w wwwab12 w1111abww1111abwww1111abt1111abwwww bonswbonsbonswbonsbonsbons 12ww1212www121212wwww
+
+
+Stats:
+======
+
+(En comptant à partir de 1)
+
+motif:          occurences:   positions (1er caractère):
+-----           ----------    -------------------------
+1212                9         2, 4, 6, 12, 98, 115, 199, 206, 208
+wwww                6         17, 18, 19, 29, 163, 212
+bonsbonsbons        5         34, 38, 42, 55, 182
+1111abt1111ab       4         68, 81, 102, 150 

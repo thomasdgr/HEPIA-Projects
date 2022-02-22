@@ -1,0 +1,9 @@
+<A>
+    tata
+    <C/>
+    tata
+    <E d="1,23">
+        tata
+    </D>
+    tata
+</A>

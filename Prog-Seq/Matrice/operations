@@ -1,0 +1,14 @@
+zoom 1,5 1,5
+#le zoom n'a pas marché car on a pas encore ouvert de fichier
+read gustavo.pgm
+#high_pass
+translate 100 100
+rotate 300 300 un angle
+# 0.78539816339 correspond à PI/4
+rotate 300 300 0.78539816339
+fonction_au_hasard 
+sharpen
+symmetry vertical
+photomaton
+sobel
+write result.pgm

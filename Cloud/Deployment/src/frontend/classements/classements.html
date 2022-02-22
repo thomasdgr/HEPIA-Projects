@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hessncf</title>
+    <meta name="author" content="Thomas & Dorian">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="classements.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../caroussel.css">
+    <link rel="icon" href="../images/favicon.ico"/>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="dropdown-menu">
+            <img id ="button" src="../images/button.png">
+            <div class="dropdown-content">
+                <a class="border" href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+                <a class="border" href="../classements/classements.html">Classements</a>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </div>
+        </div>
+        <a class="icon" href="../index.html">
+            <img id = "logo" src="../images/logo.png">
+        </a>
+        <ul>
+            <li>
+                <a href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+            </li>
+            <li>
+                <a href="../classements/classements.html">Classements</a>
+            </li>
+            <li>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </li>
+        </ul>
+    </div>
+    <div class="caroussel">
+        <img src="../images/tomaTrain.png" alt>   
+    </div>
+    
+    <div class="image">
+        <img id ="podium1" src="../images/podium1.png">
+        <img id ="podium2" src="../images/podium2.png">
+        <img id ="podium3" src="../images/podium3.png">
+        <img id ="podium4" src="../images/podium4.png">
+    </div>  
+
+    <div class="bottom_block">
+        <div id="bouton">
+            <ul id=bouton-ul>
+                <li class="border">
+                    <a href="#" onclick="update(1)">Les jours avec le plus de retard cumulé</a>
+                </li>
+                <li class="border">
+                    <a href="#" onclick="update(2)">Les excuses les plus utilisées</a>
+                </li>
+                <li class="border">
+                    <a href="#" onclick="update(3)">Les voyages les plus annulés</a>
+                </li>
+                <li class="border">
+                    <a href="#" onclick="update(4)">Les gares qui comptent le plus de retard</a>          
+                </li>
+                <li class="border">
+                    <a href="#" onclick="addData()">Ajouter des données</a>          
+                </li>
+                <li class="border">
+                    <a href="#" onclick="updateData()">Mettre les données à jour</a>          
+                </li>
+                <li class="border">
+                    <a href="#" onclick="deleteData()">Supprimer des données</a>          
+                </li>
+                <li>
+                    <p id="status"></p>        
+                </li>
+            </ul>
+        </div>
+        <div id="text">
+            <ul id=text-ul>
+                <li class="border">
+                    <p id="text1"></p>
+                </li>
+                <li class="border">
+                    <p id="text2"></p>
+                </li>
+                <li class="border">
+                    <p id="text3"></p>
+                </li>
+                <li class="border">
+                    <p id="text4"></p>
+                </li>
+                <li>
+                    <p id="text5"></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <ul>
+            <li>
+                <a class="menu_sub" href="../apropos/apropos.html">A Propos</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://www.sncf.com/fr">Le vrai site de la sncf</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="../cgu/cgu.html">Mentions légales & CGU</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://youtu.be/awmQrt_AERY">Données personnelles & cookies</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script type="text/javascript" src="classements.js"></script>
+
+</html>

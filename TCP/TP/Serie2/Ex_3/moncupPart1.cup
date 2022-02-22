@@ -1,0 +1,41 @@
+import java_cup.runtime.*;
+import java.util.Vector;
+import java.io.*;
+
+parser code {:
+
+//public int t;
+
+:}
+
+terminal Integer ID;
+terminal ADD,SUB,MUL,DIV;
+terminal PG, PD;
+
+non terminal Integer e;
+non terminal Integer t;
+non terminal Integer f;
+
+// NOTE : E:i correspond à la valeur actuelle de E
+
+// E -> E + T | E - T | T
+e ::= e ADD t {: System.out.println("E + T"); :} |
+	  e SUB t {: System.out.println("E - T"); :} |
+	  		t {: System.out.println("T"); :}
+;
+
+// T -> T * F | T / F | F
+t ::= t MUL f {: System.out.println("T * F"); :} |
+	  t DIV f {: System.out.println("T / F"); :} |
+			f {: System.out.println("F"); :}
+;
+
+// F -> -F | +F
+f ::=   SUB f {: System.out.println("-F"); :} |
+		ADD f {: System.out.println("+F"); :}
+;
+
+// F -> (E) | id
+f ::= PG e PD {: System.out.println("PG E PD"); :} |
+		   ID {: System.out.println("ID"); :}
+;

@@ -1,0 +1,46 @@
+import java_cup.runtime.*;
+import java.util.Vector;
+import java.io.*;
+
+parser code {:
+	//
+:}
+
+//bcdabcdab
+
+terminal CHAR_A, CHAR_B, CHAR_C, CHAR_D;
+
+non terminal s, a, b, c, d;
+
+// S -> B A
+s ::= b a {: System.out.println(" Action de la règle S -> B A \n "); :}
+;
+
+// A -> A B a | ε
+a ::= a b CHAR_A {: System.out.println(" Action de la règle A -> A B a \n "); :} | 
+				 {: System.out.println(" Action de la règle A -> ε \n "); :}
+;  
+
+// B -> b C D
+b ::= CHAR_B c d {: System.out.println(" Action de la règle B -> b C D \n "); :}
+;
+
+// C -> c | ε
+c ::= CHAR_C {: System.out.println(" Action de la règle C -> c \n "); :} | 
+			 {: System.out.println(" Action de la règle C -> ε \n "); :}
+;
+
+// D -> d | ε
+d ::= CHAR_D {: System.out.println(" Action de la règle D -> d \n "); :} |
+             {: System.out.println(" Action de la règle D -> ε \n "); :}
+;
+
+/*			S
+		  /   \
+		 B     A
+	   /		 \
+	b C D      A B a
+	 /   \	  /  |
+	c     d  ε   X   
+*/
+

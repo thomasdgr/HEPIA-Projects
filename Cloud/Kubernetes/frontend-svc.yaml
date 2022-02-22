@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    component: frontend
+  name: frontend-svc
+spec:
+  ports:
+  - port: 80
+    targetPort: 8080
+    name: frontend
+  selector:
+    app: todo
+    component: frontend
+  type: LoadBalancer

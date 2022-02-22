@@ -1,0 +1,5 @@
+Thomas DAGIER, Quentin ROD, 2ème ISC
+
+Programme simulant une machine à sous et réalisée en multithreading.
+
+Pour lancer le programme, aller dans "src" puis faire "make run"

@@ -1,0 +1,36 @@
+version: '3.0'
+services:
+    redis:
+        image: 'redis:3.2.10-alpine'
+        command: "redis-server --requirepass ccp2 --appendonly yes"
+        deploy:
+            placement:
+                constraints:
+                    - "node.hostname==master"
+        ports:
+            - "6379:6379"
+    api:
+        depends_on:
+          - redis
+        image: 'icclabcna/ccp2-k8s-todo-api'
+        ports:
+            - "8081:8081"
+        environment:
+            - REDIS_ENDPOINT=redis
+            - REDIS_PWD=ccp2
+        deploy:
+            replicas: 2
+            placement:
+                constraints:
+                    - "node.hostname==worker1"
+    frontend:
+        image: 'icclabcna/ccp2-k8s-todo-frontend'
+        ports:
+            - "8080:8080"
+        environment:
+            - API_ENDPOINT_URL=http://api:8081
+        deploy:
+            replicas: 2
+            placement:
+                constraints:
+                    - "node.hostname==worker2"

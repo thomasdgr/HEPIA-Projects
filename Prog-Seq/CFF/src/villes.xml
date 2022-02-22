@@ -1,0 +1,213 @@
+<Reseau>
+<Titre> CFF </Titre>
+<Ville>
+<Nom> Geneve </Nom>
+<Longitude> 500 </Longitude>
+<Latitude> 118 </Latitude>
+</Ville>
+<Ville>
+<Nom> Lausanne </Nom>
+<Longitude> 538 </Longitude>
+<Latitude> 153 </Latitude>
+</Ville>
+<Ville>
+<Nom> Neuchatel </Nom>
+<Longitude> 560 </Longitude>
+<Latitude> 205 </Latitude>
+</Ville>
+<Ville>
+<Nom> Delemont </Nom>
+<Longitude> 580 </Longitude>
+<Latitude> 242 </Latitude>
+</Ville>
+<Ville>
+<Nom> Bale </Nom>
+<Longitude> 612 </Longitude>
+<Latitude> 267 </Latitude>
+</Ville>
+<Ville>
+<Nom> Berne </Nom>
+<Longitude> 601 </Longitude>
+<Latitude> 199 </Latitude>
+</Ville>
+<Ville>
+<Nom> Lucerne </Nom>
+<Longitude> 666 </Longitude>
+<Latitude> 212 </Latitude>
+</Ville>
+<Ville>
+<Nom> Zurich </Nom>
+<Longitude> 683 </Longitude>
+<Latitude> 248 </Latitude>
+</Ville>
+<Ville>
+<Nom> Schaffouse </Nom>
+<Longitude> 690 </Longitude>
+<Latitude> 283 </Latitude>
+</Ville>
+<Ville>
+<Nom> St.-Gall </Nom>
+<Longitude> 746 </Longitude>
+<Latitude> 255 </Latitude>
+</Ville>
+<Ville>
+<Nom> Coire </Nom>
+<Longitude> 760 </Longitude>
+<Latitude> 192 </Latitude>
+</Ville>
+<Ville>
+<Nom> St.-Moritz </Nom>
+<Longitude> 785 </Longitude>
+<Latitude> 153 </Latitude>
+</Ville>
+<Ville>
+<Nom> Bellinzone </Nom>
+<Longitude> 723 </Longitude>
+<Latitude> 117 </Latitude>
+</Ville>
+<Ville>
+<Nom> Andermatt </Nom>
+<Longitude> 675 </Longitude>
+<Latitude> 160 </Latitude>
+</Ville>
+<Ville>
+<Nom> Sion </Nom>
+<Longitude> 595 </Longitude>
+<Latitude> 120 </Latitude>
+</Ville>
+<Liaison>
+<Origine> Geneve </Origine>
+<Destination> Lausanne </Destination>
+<Temps> 34 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Lausanne </Origine>
+<Destination> Neuchatel </Destination>
+<Temps> 40 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Lausanne </Origine>
+<Destination> Berne </Destination>
+<Temps> 67 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Lausanne </Origine>
+<Destination> Sion </Destination>
+<Temps> 67 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Neuchatel </Origine>
+<Destination> Delemont </Destination>
+<Temps> 49 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Neuchatel </Origine>
+<Destination> Bale </Destination>
+<Temps> 87 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Neuchatel </Origine>
+<Destination> Berne </Destination>
+<Temps> 42 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Delemont </Origine>
+<Destination> Bale </Destination>
+<Temps> 34 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Delemont </Origine>
+<Destination> Berne </Destination>
+<Temps> 60 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Bale </Origine>
+<Destination> Berne </Destination>
+<Temps> 66 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Bale </Origine>
+<Destination> Lucerne </Destination>
+<Temps> 73 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Bale </Origine>
+<Destination> Zurich </Destination>
+<Temps> 60 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Berne </Origine>
+<Destination> Lucerne </Destination>
+<Temps> 83 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Berne </Origine>
+<Destination> Zurich </Destination>
+<Temps> 79 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Berne </Origine>
+<Destination> Sion </Destination>
+<Temps> 157 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Lucerne </Origine>
+<Destination> Zurich </Destination>
+<Temps> 46 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Lucerne </Origine>
+<Destination> Bellinzone </Destination>
+<Temps> 132 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Lucerne </Origine>
+<Destination> Andermatt </Destination>
+<Temps> 102 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Zurich </Origine>
+<Destination> Schaffouse </Destination>
+<Temps> 42 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Zurich </Origine>
+<Destination> St.-Gall </Destination>
+<Temps> 66 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Zurich </Origine>
+<Destination> Coire </Destination>
+<Temps> 91 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Schaffouse </Origine>
+<Destination> St.-Gall </Destination>
+<Temps> 87 </Temps>
+</Liaison>
+<Liaison>
+<Origine> St.-Gall </Origine>
+<Destination> Coire </Destination>
+<Temps> 99 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Coire </Origine>
+<Destination> St.-Moritz </Destination>
+<Temps> 116 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Coire </Origine>
+<Destination> Andermatt </Destination>
+<Temps> 100 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Bellinzone </Origine>
+<Destination> Andermatt </Destination>
+<Temps> 84 </Temps>
+</Liaison>
+<Liaison>
+<Origine> Andermatt </Origine>
+<Destination> Sion </Destination>
+<Temps> 162 </Temps>
+</Liaison>
+</Reseau>

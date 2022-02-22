@@ -1,0 +1,8 @@
+use_reader: yes
+api_address_post: http://localhost:8000/presence/actualize
+stand_id: 1
+serial_port: /dev/ttyUSB0
+rssi_min_for_presence: -7
+refresh_read_rate_s: 5
+timeout_read_one_mess_ms: 600
+timeout_wait_cmd_answ_ms: 2000

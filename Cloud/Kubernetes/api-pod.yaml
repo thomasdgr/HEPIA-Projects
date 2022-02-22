@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: api
+  labels:
+    component: api
+    app: todo
+spec:
+  containers:
+  - name: api
+    image: icclabcna/ccp2-k8s-todo-api
+    ports:
+    - containerPort: 8081
+    resources:
+      limits:
+        cpu: 100m
+    env:
+    - name: REDIS_ENDPOINT
+      value: redis-svc
+    - name: REDIS_PWD
+      value: ccp2

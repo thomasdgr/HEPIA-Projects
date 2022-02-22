@@ -1,0 +1,156 @@
+[0:Geneve] [1:Lausanne] [2:Neuchatel] [3:Delemont] [4:Bale] [5:Berne] [6:Lucerne] [7:Zurich] [8:Schaffouse] [9:St.-Gall] [10:Coire] [11:St.-Moritz] [12:Bellinzone] [13:Andermatt] [14:Sion] 
+0 34 inf inf inf inf inf inf inf inf inf inf inf inf inf 
+34 0 40 inf inf 67 inf inf inf inf inf inf inf inf 67 
+inf 40 0 49 87 42 inf inf inf inf inf inf inf inf inf 
+inf inf 49 0 34 60 inf inf inf inf inf inf inf inf inf 
+inf inf 87 34 0 66 73 60 inf inf inf inf inf inf inf 
+inf 67 42 60 66 0 83 79 inf inf inf inf inf inf 157 
+inf inf inf inf 73 83 0 46 inf inf inf inf 132 102 inf 
+inf inf inf inf 60 79 46 0 42 66 91 inf inf inf inf 
+inf inf inf inf inf inf inf 42 0 87 inf inf inf inf inf 
+inf inf inf inf inf inf inf 66 87 0 99 inf inf inf inf 
+inf inf inf inf inf inf inf 91 inf 99 0 116 inf 100 inf 
+inf inf inf inf inf inf inf inf inf inf 116 0 inf inf inf 
+inf inf inf inf inf inf 132 inf inf inf inf inf 0 84 inf 
+inf inf inf inf inf inf 102 inf inf inf 100 inf 84 0 162 
+inf 67 inf inf inf 157 inf inf inf inf inf inf inf 162 0 
+Geneve [Lausanne:34] 
+Lausanne [Sion:67] [Berne:67] [Neuchatel:40] [Geneve:34] 
+Neuchatel [Berne:42] [Bale:87] [Delemont:49] [Lausanne:40] 
+Delemont [Berne:60] [Bale:34] [Neuchatel:49] 
+Bale [Zurich:60] [Lucerne:73] [Berne:66] [Delemont:34] [Neuchatel:87] 
+Berne [Sion:157] [Zurich:79] [Lucerne:83] [Bale:66] [Delemont:60] [Neuchatel:42] [Lausanne:67] 
+Lucerne [Andermatt:102] [Bellinzone:132] [Zurich:46] [Berne:83] [Bale:73] 
+Zurich [Coire:91] [St.-Gall:66] [Schaffouse:42] [Lucerne:46] [Berne:79] [Bale:60] 
+Schaffouse [St.-Gall:87] [Zurich:42] 
+St.-Gall [Coire:99] [Schaffouse:87] [Zurich:66] 
+Coire [Andermatt:100] [St.-Moritz:116] [St.-Gall:99] [Zurich:91] 
+St.-Moritz [Coire:116] 
+Bellinzone [Andermatt:84] [Lucerne:132] 
+Andermatt [Sion:162] [Bellinzone:84] [Coire:100] [Lucerne:102] 
+Sion [Andermatt:162] [Berne:157] [Lausanne:67] 
+0 34 74 123 157 101 184 180 222 246 271 387 316 263 101 
+34 0 40 89 123 67 150 146 188 212 237 353 282 229 67 
+74 40 0 49 83 42 125 121 163 187 212 328 257 227 107 
+123 89 49 0 34 60 107 94 136 160 185 301 239 209 156 
+157 123 83 34 0 66 73 60 102 126 151 267 205 175 190 
+101 67 42 60 66 0 83 79 121 145 170 286 215 185 134 
+184 150 125 107 73 83 0 46 88 112 137 253 132 102 217 
+180 146 121 94 60 79 46 0 42 66 91 207 178 148 213 
+222 188 163 136 102 121 88 42 0 87 133 249 220 190 255 
+246 212 187 160 126 145 112 66 87 0 99 215 244 199 279 
+271 237 212 185 151 170 137 91 133 99 0 116 184 100 262 
+387 353 328 301 267 286 253 207 249 215 116 0 300 216 378 
+316 282 257 239 205 215 132 178 220 244 184 300 0 84 246 
+263 229 227 209 175 185 102 148 190 199 100 216 84 0 162 
+101 67 107 156 190 134 217 213 255 279 262 378 246 162 0 
+-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+0 -1 2 2 2 5 5 5 5 5 5 5 5 14 14 
+1 1 -1 3 3 5 5 5 5 5 5 5 5 5 1 
+2 2 2 -1 4 5 4 4 4 4 4 4 4 4 2 
+3 3 3 3 -1 5 6 7 7 7 7 7 6 6 3 
+1 1 2 3 4 -1 6 7 7 7 7 7 6 6 1 
+5 5 5 4 4 5 -1 7 7 7 7 7 12 13 5 
+5 5 5 4 4 5 6 -1 8 9 10 10 6 6 5 
+7 7 7 7 7 7 7 7 -1 9 7 7 7 7 7 
+7 7 7 7 7 7 7 7 8 -1 10 10 7 10 7 
+7 7 7 7 7 7 7 7 7 9 -1 11 13 13 13 
+10 10 10 10 10 10 10 10 10 10 10 -1 10 10 10 
+6 6 6 6 6 6 6 6 6 6 13 13 -1 13 13 
+14 14 6 6 6 6 6 6 6 10 10 10 12 -1 14 
+1 1 1 1 1 1 1 1 1 1 13 13 13 13 -1 
+101
+100
+188
+107
+271
+205
+263
+89
+257
+316
+190
+34
+387
+255
+212
+227
+107
+157
+157
+215
+[Geneve:Lausanne:Sion]
+[Andermatt:Coire]
+[Schaffouse:Zurich:Berne:Lausanne]
+[Lucerne:Bale:Delemont]
+[Coire:Zurich:Berne:Lausanne:Geneve]
+[Bale:Lucerne:Bellinzone]
+[Andermatt:Sion:Lausanne:Geneve]
+[Lausanne:Neuchatel:Delemont]
+[Neuchatel:Berne:Lucerne:Bellinzone]
+[Bellinzone:Lucerne:Berne:Lausanne:Geneve]
+[Sion:Lausanne:Neuchatel:Delemont:Bale]
+[Lausanne:Geneve]
+[St.-Moritz:Coire:Zurich:Berne:Lausanne:Geneve]
+[Sion:Lausanne:Berne:Zurich:Schaffouse]
+[St.-Gall:Zurich:Berne:Lausanne]
+[Neuchatel:Berne:Lucerne:Andermatt]
+[Sion:Lausanne:Neuchatel]
+[Bale:Delemont:Neuchatel:Lausanne:Geneve]
+[Geneve:Lausanne:Neuchatel:Delemont:Bale]
+[Berne:Lucerne:Bellinzone]
+[Geneve:0] [Lausanne:34] [Neuchatel:74] [Delemont:123] [Bale:157] [Berne:101] [Lucerne:184] [Zurich:180] [Schaffouse:222] [St.-Gall:246] [Coire:271] [St.-Moritz:387] [Bellinzone:316] [Andermatt:263] [Sion:101] 
+[Geneve:34] [Lausanne:0] [Neuchatel:40] [Delemont:89] [Bale:123] [Berne:67] [Lucerne:150] [Zurich:146] [Schaffouse:188] [St.-Gall:212] [Coire:237] [St.-Moritz:353] [Bellinzone:282] [Andermatt:229] [Sion:67] 
+[Geneve:74] [Lausanne:40] [Neuchatel:0] [Delemont:49] [Bale:83] [Berne:42] [Lucerne:125] [Zurich:121] [Schaffouse:163] [St.-Gall:187] [Coire:212] [St.-Moritz:328] [Bellinzone:257] [Andermatt:227] [Sion:107] 
+[Geneve:123] [Lausanne:89] [Neuchatel:49] [Delemont:0] [Bale:34] [Berne:60] [Lucerne:107] [Zurich:94] [Schaffouse:136] [St.-Gall:160] [Coire:185] [St.-Moritz:301] [Bellinzone:239] [Andermatt:209] [Sion:156] 
+[Geneve:157] [Lausanne:123] [Neuchatel:83] [Delemont:34] [Bale:0] [Berne:66] [Lucerne:73] [Zurich:60] [Schaffouse:102] [St.-Gall:126] [Coire:151] [St.-Moritz:267] [Bellinzone:205] [Andermatt:175] [Sion:190] 
+[Geneve:101] [Lausanne:67] [Neuchatel:42] [Delemont:60] [Bale:66] [Berne:0] [Lucerne:83] [Zurich:79] [Schaffouse:121] [St.-Gall:145] [Coire:170] [St.-Moritz:286] [Bellinzone:215] [Andermatt:185] [Sion:134] 
+[Geneve:184] [Lausanne:150] [Neuchatel:125] [Delemont:107] [Bale:73] [Berne:83] [Lucerne:0] [Zurich:46] [Schaffouse:88] [St.-Gall:112] [Coire:137] [St.-Moritz:253] [Bellinzone:132] [Andermatt:102] [Sion:217] 
+[Geneve:180] [Lausanne:146] [Neuchatel:121] [Delemont:94] [Bale:60] [Berne:79] [Lucerne:46] [Zurich:0] [Schaffouse:42] [St.-Gall:66] [Coire:91] [St.-Moritz:207] [Bellinzone:178] [Andermatt:148] [Sion:213] 
+[Geneve:222] [Lausanne:188] [Neuchatel:163] [Delemont:136] [Bale:102] [Berne:121] [Lucerne:88] [Zurich:42] [Schaffouse:0] [St.-Gall:87] [Coire:133] [St.-Moritz:249] [Bellinzone:220] [Andermatt:190] [Sion:255] 
+[Geneve:246] [Lausanne:212] [Neuchatel:187] [Delemont:160] [Bale:126] [Berne:145] [Lucerne:112] [Zurich:66] [Schaffouse:87] [St.-Gall:0] [Coire:99] [St.-Moritz:215] [Bellinzone:244] [Andermatt:199] [Sion:279] 
+[Geneve:271] [Lausanne:237] [Neuchatel:212] [Delemont:185] [Bale:151] [Berne:170] [Lucerne:137] [Zurich:91] [Schaffouse:133] [St.-Gall:99] [Coire:0] [St.-Moritz:116] [Bellinzone:184] [Andermatt:100] [Sion:262] 
+[Geneve:387] [Lausanne:353] [Neuchatel:328] [Delemont:301] [Bale:267] [Berne:286] [Lucerne:253] [Zurich:207] [Schaffouse:249] [St.-Gall:215] [Coire:116] [St.-Moritz:0] [Bellinzone:300] [Andermatt:216] [Sion:378] 
+[Geneve:316] [Lausanne:282] [Neuchatel:257] [Delemont:239] [Bale:205] [Berne:215] [Lucerne:132] [Zurich:178] [Schaffouse:220] [St.-Gall:244] [Coire:184] [St.-Moritz:300] [Bellinzone:0] [Andermatt:84] [Sion:246] 
+[Geneve:263] [Lausanne:229] [Neuchatel:227] [Delemont:209] [Bale:175] [Berne:185] [Lucerne:102] [Zurich:148] [Schaffouse:190] [St.-Gall:199] [Coire:100] [St.-Moritz:216] [Bellinzone:84] [Andermatt:0] [Sion:162] 
+[Geneve:101] [Lausanne:67] [Neuchatel:107] [Delemont:156] [Bale:190] [Berne:134] [Lucerne:217] [Zurich:213] [Schaffouse:255] [St.-Gall:279] [Coire:262] [St.-Moritz:378] [Bellinzone:246] [Andermatt:162] [Sion:0] 
+101
+100
+188
+107
+271
+205
+263
+89
+257
+316
+190
+34
+387
+255
+212
+227
+107
+157
+157
+215
+[Geneve:Lausanne:Sion]
+[Andermatt:Coire]
+[Schaffouse:Zurich:Berne:Lausanne]
+[Lucerne:Bale:Delemont]
+[Coire:Zurich:Berne:Lausanne:Geneve]
+[Bale:Lucerne:Bellinzone]
+[Andermatt:Sion:Lausanne:Geneve]
+[Lausanne:Neuchatel:Delemont]
+[Neuchatel:Berne:Lucerne:Bellinzone]
+[Bellinzone:Lucerne:Berne:Lausanne:Geneve]
+[Sion:Lausanne:Neuchatel:Delemont:Bale]
+[Lausanne:Geneve]
+[St.-Moritz:Coire:Zurich:Berne:Lausanne:Geneve]
+[Sion:Lausanne:Berne:Zurich:Schaffouse]
+[St.-Gall:Zurich:Berne:Lausanne]
+[Neuchatel:Berne:Lucerne:Andermatt]
+[Sion:Lausanne:Neuchatel]
+[Bale:Delemont:Neuchatel:Lausanne:Geneve]
+[Geneve:Lausanne:Neuchatel:Delemont:Bale]
+[Berne:Lucerne:Bellinzone]

@@ -1,0 +1,129 @@
+City :
+	nom : Geneve
+	longitude : 500
+	latitude : 118
+	voisins:
+		Lausanne: 34
+City :
+	nom : Lausanne
+	longitude : 538
+	latitude : 153
+	voisins:
+		Sion: 67
+		Berne: 67
+		Neuchatel: 40
+		Geneve: 34
+City :
+	nom : Neuchatel
+	longitude : 560
+	latitude : 205
+	voisins:
+		Delemont: 49
+		Bale: 87
+		Berne: 42
+		Lausanne: 40
+City :
+	nom : Delemont
+	longitude : 580
+	latitude : 242
+	voisins:
+		Bale: 34
+		Berne: 60
+		Neuchatel: 49
+City :
+	nom : Bale
+	longitude : 612
+	latitude : 267
+	voisins:
+		Delemont: 34
+		Berne: 66
+		Neuchatel: 87
+		Lucerne: 73
+		Zurich: 60
+City :
+	nom : Berne
+	longitude : 601
+	latitude : 199
+	voisins:
+		Delemont: 60
+		Sion: 157
+		Bale: 66
+		Lausanne: 67
+		Neuchatel: 42
+		Lucerne: 83
+		Zurich: 79
+City :
+	nom : Lucerne
+	longitude : 666
+	latitude : 212
+	voisins:
+		Bellinzone: 132
+		Bale: 73
+		Berne: 83
+		Andermatt: 102
+		Zurich: 46
+City :
+	nom : Zurich
+	longitude : 683
+	latitude : 248
+	voisins:
+		Coire: 91
+		St.-Gall: 66
+		Bale: 60
+		Berne: 79
+		Schaffouse: 42
+		Lucerne: 46
+City :
+	nom : Schaffouse
+	longitude : 690
+	latitude : 283
+	voisins:
+		St.-Gall: 87
+		Zurich: 42
+City :
+	nom : St.-Gall
+	longitude : 746
+	latitude : 255
+	voisins:
+		Coire: 99
+		Schaffouse: 87
+		Zurich: 66
+City :
+	nom : Coire
+	longitude : 760
+	latitude : 192
+	voisins:
+		St.-Gall: 99
+		St.-Moritz: 116
+		Andermatt: 100
+		Zurich: 91
+City :
+	nom : St.-Moritz
+	longitude : 785
+	latitude : 153
+	voisins:
+		Coire: 116
+City :
+	nom : Bellinzone
+	longitude : 723
+	latitude : 117
+	voisins:
+		Andermatt: 84
+		Lucerne: 132
+City :
+	nom : Andermatt
+	longitude : 675
+	latitude : 160
+	voisins:
+		Sion: 162
+		Coire: 100
+		Bellinzone: 84
+		Lucerne: 102
+City :
+	nom : Sion
+	longitude : 595
+	latitude : 120
+	voisins:
+		Berne: 157
+		Lausanne: 67
+		Andermatt: 162

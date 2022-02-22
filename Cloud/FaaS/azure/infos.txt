@@ -1,0 +1,3 @@
+https://labo3functionapp.azurewebsites.net/api/music/list
+
+AccountEndpoint=https://labo3-faas.documents.azure.com:443/;AccountKey=5amTOHmLuVYmk7rlpkqKaW1lGOhgFhVooCetwagGeFf7VyiQN86F8fSLpypgCprIvGNJXEzfspE6K5IDUi1BMg==;

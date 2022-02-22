@@ -1,0 +1,103 @@
+# MAIN (tourne en boucle)
+r0 = 7   # h_joueur
+bl [r7] initialisation
+bl [r7] updateAffichage
+bl [r7] setData
+bl [r7] waitDisplay
+bl [r7] detecterColision
+bl [r7] renouvelerObstacle
+b -5
+
+initialisation:
+r5 = 1   # write enable de l'obstacle
+r6 = 140 
+st r5,0[r6]
+r1 = 4   # v_joueur
+r5 = 160  
+ld r2,0[r5]   # lecture de h_bottom 
+r5 = 128
+ld r3,0[r5]   # lecture de h_top
+r4 = 15   # v_obstacle
+br [r7]
+
+updateAffichage:
+r6 = 1
+r4 = r4 - r6  # déplacer l'obstacle de 1 vers la gauche
+r6 = 200
+ld r5,0[r6]   # récupérer l'état des boutons
+r6 = 1
+r6 = r6 - r5  
+bcz 5   # si le bouton up est appuyé
+r6 = 2
+r6 = r6 - r5
+bcz 8   # si le bouton down est appuyé
+br[r7]
+r6 = 1
+r0 = r0 - r6 # on déplace le joueur de 1 vers le haut
+bcn 2  # gestion du cas ou on sort du jeu par le haut
+br [r7]
+r0 = 0
+br [r7]
+r6 = 1
+r5 = r0 + r6
+r6 = 16
+r6 = r5 - r6 
+bcz 4   # gestion du cas ou on sort du jeu par le bas
+r6 = 0
+r0 = r5 + r6 # on déplace le joueur de 1 vers le bas
+br [r7]
+r0 = 15
+br [r7]
+
+
+detecterColision:
+r6 = 1
+r5 = r4 - r6
+r6 = r1 - r5
+bcz 2   # on regarde si le joueur est au contact de l'obstacle
+br [r7]
+r5 = r0 - r2   # on regarde si le joueur touche le bord haut
+bcn 4
+r5 = r3 - r0   # on regarde si le joueur touche le bord bas
+bcn 2
+br [r7]
+r5 = 1
+r6 = 150   
+st r5,0[r6]   # on veut afficher clairement la fin du jeu
+bl [r7] waitDisplay   # on attend que tout l'écran soit coloré avant de recommencer
+r5 = 0
+r6 = 150
+st r5,0[r6]   # on enleve le w_en sur la fin du jeu quand tout l'écran est coloré
+r0 = 7   # reset position joueur 
+r7 = 1   # on recommence l'initialisation
+br [r7]
+
+renouvelerObstacle:
+r5 = 2
+r6 = r4 - r5
+bcz 2   # si on a clairement dépassé l'obstacle
+br [r7]
+r5 = 1
+r6 = 180
+st r5,0[r6]
+r7 = 1  #on réinitialise sans modifier la position du joueur
+br [r7]
+
+setData:  # permet de donner les valeurs à lire pour l'affichage
+r5 = 220
+st r4,0[r5]   # v_obstacle
+r5 = 230
+st r0,0[r5]   # h_joueur
+r5 = 240
+st r1,0[r5]   # v_joueur
+br [r7]
+
+waitDisplay: # fonction de wait pour être sûr que l'ecran s'affiche entièrement avant de continuer les instructions
+r6 = 0
+r5 = 1
+r6 = r6 + r5
+r5 = 42
+r5 = r6 - r5
+bcz 2
+b -5
+br [r7]  # en tout: environ 256 instructions soit le nombre de pixel à colorer dans l'affichage

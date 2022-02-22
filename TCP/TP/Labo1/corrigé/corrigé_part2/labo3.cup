@@ -1,0 +1,83 @@
+/* Michaël Minelli
+* Technique de compilation
+* ITI Jour 2ème
+* Labo 3 : Analyseur SGML
+*/
+import java_cup.runtime.*;
+import java.util.*;
+
+action code {:
+    //Stop l'affichage si une erreur a été trouvée
+	public Boolean stopExec = false;
+
+    public Integer countTab = 0;
+
+    //Stockage des variables
+    public HashMap<String, String> vars = new HashMap<String, String>();
+
+    //Affiche le nombre de tabulation voulue
+    public void showTab() {
+        for (int i = 0; i < countTab; i++)
+            System.out.printf("\t");
+    }
+
+    //Test que le balise se soit fermée avec le meme type de balise
+	public void testBaliseFermante(String l, String m) {
+		if (!stopExec) {
+            countTab--; //La fermeture d'une balise signifie que nous decendons d'un étage dans les tabs
+            showTab();
+			System.out.printf("</" + m + ">");
+			if (!l.equals(m)) {
+				System.out.printf("(erreur) ");
+				stopExec = true;
+			}
+            System.out.printf("\n");
+		}
+	}
+:};
+
+terminal String DEBUT, FERMANTE, VAR, IF;
+terminal FIN_AUTOFERMANTE, FIN, TEXT_OR_ERROR, FI;
+
+non terminal String baliseAutoFermante, baliseAutoFermanteWithError, balise, baliseWithError;
+non terminal textOrError, sgml, sgml_withoutError;
+
+//Tout le code
+sgml ::= balise:l sgml FERMANTE:m {: testBaliseFermante(l, m); :} sgml
+            | VAR:n {: vars.put(n.substring(6, n.length()-2).split("=")[0], n.substring(6, n.length()-2).split("\"")[1]); :} sgml
+            | IF:n textOrError:t FI {:  String valVar = vars.get(n.substring(5, n.length()-2).split("=")[0]); //Valeur de la variable, null si n'éxiste pas
+                                        if (valVar != null && valVar.equals(n.substring(5, n.length()-2).split("\"")[1])) {
+                                            showTab();
+                                            System.out.printf(t + "\n"); //Si c'est correct, affiche le texte entre les if
+                                        }
+                                    :} sgml
+			| baliseWithError sgml FERMANTE sgml
+			| baliseAutoFermante sgml
+			| baliseAutoFermanteWithError sgml
+            | textOrError:t {: showTab(); System.out.printf(t + "\n"); :} sgml_withoutError
+			| ;
+
+//Permet de contourné une érreur avec les textOrError qui fesait de la grammaire une grammaire ambigue
+sgml_withoutError ::= balise:l sgml FERMANTE:m {: testBaliseFermante(l, m); :} sgml
+            | VAR:n {: vars.put(n.substring(6, n.length()-2).split("=")[0], n.substring(6, n.length()-2).split("\"")[1]); :} sgml
+            | IF:n textOrError:t FI {:  String valVar = vars.get(n.substring(5, n.length()-2).split("=")[0]);
+                                        if (valVar != null && valVar.equals(n.substring(5, n.length()-2).split("\"")[1])) {
+                                            showTab();
+                                            System.out.printf(t + "\n");
+                                        }
+                                    :} sgml
+            | baliseWithError sgml FERMANTE sgml
+			| baliseAutoFermante sgml
+			| baliseAutoFermanteWithError sgml
+			| ;
+
+//Balises auto-fermante
+baliseAutoFermante ::= DEBUT:n FIN_AUTOFERMANTE {: if (!stopExec) { showTab(); System.out.printf("<" + n + "/>\n"); RESULT = n; } :};
+baliseAutoFermanteWithError ::= DEBUT:n textOrError FIN_AUTOFERMANTE {: if (!stopExec) { showTab(); System.out.printf("<" + n + "/> (erreur)"); stopExec = true; } :};
+
+//Balises ouvrantes
+balise ::= DEBUT:n FIN {: if (!stopExec) { showTab(); System.out.printf("<" + n + ">\n"); countTab++; } RESULT = n; :};
+baliseWithError ::= DEBUT:n textOrError FIN {: if (!stopExec) { showTab(); System.out.printf("<" + n + "> (erreur)"); stopExec = true; } :};
+
+//Fais en sort de réduite plusieurs TEXT_OR_ERROR à la suite par un seul textOrError
+textOrError ::= textOrError:o TEXT_OR_ERROR:n {: RESULT = new String((String)o + (String)n); :} | TEXT_OR_ERROR:n {: RESULT = n; :};

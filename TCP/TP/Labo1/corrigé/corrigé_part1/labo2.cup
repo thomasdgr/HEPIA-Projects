@@ -1,0 +1,55 @@
+/* Michaël Minelli
+* Technique de compilation
+* ITI Jour 2ème
+* Labo 2 : Analyseur SGML
+*/
+import java_cup.runtime.*;
+import java.util.*;
+
+action code {:
+    //Stop l'affichage si une erreur a été trouvée
+	public Boolean stopExec = false;
+
+    //Test que le balise se soit fermée avec le meme type de balise
+	public void testBaliseFermante(String l, String m) {
+		if (!stopExec) {
+			System.out.printf("-" + m + " ");
+			if (!l.equals(m)) {
+				System.out.printf("(erreur) ");
+				stopExec = true;
+			}
+		}
+	}
+:};
+
+terminal String DEBUT, FERMANTE;
+terminal FIN_AUTOFERMANTE, FIN, TEXT_OR_ERROR;
+
+non terminal String baliseAutoFermante, baliseAutoFermanteWithError, balise, baliseWithError;
+non terminal textOrError, sgml, sgml_withoutError;
+
+//Tout le code
+sgml ::= balise:l sgml FERMANTE:m sgml {: testBaliseFermante(l, m); :}
+			| baliseWithError sgml FERMANTE sgml
+			| baliseAutoFermante sgml
+			| baliseAutoFermanteWithError sgml
+			| textOrError sgml_withoutError
+			| ;
+
+//Permet de contourné une érreur avec les textOrError qui fesait de la grammaire une grammaire ambigue
+sgml_withoutError ::= balise:l sgml FERMANTE:m sgml {: testBaliseFermante(l, m); :}
+			| baliseWithError sgml FERMANTE sgml
+			| baliseAutoFermante sgml
+			| baliseAutoFermanteWithError sgml
+			| ;
+
+//Balises auto-fermante
+baliseAutoFermante ::= DEBUT:n FIN_AUTOFERMANTE {: if (!stopExec) { System.out.printf(n + " "); RESULT = n; } :};
+baliseAutoFermanteWithError ::= DEBUT:n textOrError FIN_AUTOFERMANTE {: if (!stopExec) { System.out.printf(n + " (erreur)"); stopExec = true; } :};
+
+//Balises ouvrantes
+balise ::= DEBUT:n FIN {: if (!stopExec) System.out.printf("+" + n + " "); RESULT = n; :};
+baliseWithError ::= DEBUT:n textOrError FIN {: if (!stopExec) { System.out.printf("+" + n + " (erreur)"); stopExec = true; } :};
+
+//Fais en sort de réduite plusieurs TEXT_OR_ERROR à la suite par un seul textOrError
+textOrError ::= textOrError TEXT_OR_ERROR | TEXT_OR_ERROR;

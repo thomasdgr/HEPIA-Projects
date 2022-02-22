@@ -1,0 +1,31 @@
+/*****************************************************************************
+		     ____
+           /____ \         | Projet : TP sur l'utilisation des barrières et des
+           | _ _`\|        |          mutex dans le cadre du cours de PCO
+    .-.   `| O O |         | Auteurs : Quentin ROD, Thomas DAGIER
+    | |   (- /_  -)        |
+    | |    |     |         | Descripition : Utiliser la concurence pour calculer
+(___)  )\/  \_____/  ~\.   |                une somme de termes à l'aide de
+(___) . \   `         `\   |                barrières
+ (__)-    ,/        (   |  |
+      `--~|         |   |  |  Version : 1.0
+          |         |   |  |  Date : 21/04/2021
+
+*****************************************************************************/
+
+Pour lancer le programme:
+1) Faire la commande make dans le dossier
+2) Appeler le programme ainsi ./main <M> <N> <I>
+
+M correspond au nombre de sinus à calculer, N au nombre de threads à utiliser
+et I le nombre de sommes à effectuer.
+
+Notre programme fonctionne pour certaines values de M et N mais pour toutes les valeurs de I.
+
+Le problème est dû au fait qu'un thread peut finir avant les autres. Par conséquent,
+les autres vont attendre sur lui à la prochaine barrière. Il y a alors des deadlocks.
+
+Exemple de valeurs fonctionnelles:
+./main 10 6 2
+./main 100 5 2
+./main 100 6 2

@@ -1,0 +1,144 @@
+import java_cup.runtime.*;
+import java.io.*;
+import java.util.*;
+
+action code {:
+    HashMap<String, Symbole> TDS = new HashMap<>();
+
+    public void addVarToTDS(ArrayList<Idf> i, HashMap<String, Symbole> TDS, String type){
+        for(Idf crt : i){
+            if(type.equals("entier")){
+                TDS.put(crt.getName(), new Symbole(crt.getName(),"0",type,false));
+            } else {
+                TDS.put(crt.getName(), new Symbole(crt.getName(),"false",type,false));
+            }
+        }
+    }
+
+    public void TDStoString(HashMap<String, Symbole> TDS){
+            System.out.println("Table des symboles:");
+        for (String k : TDS.keySet()){
+            System.out.println("\t" + TDS.get(k).toString());
+        }
+        System.out.println();
+    }
+
+:}
+
+terminal PRG, STARTPRG, ENDPRG, SEMICOLON, /*STARTFUNC, ENDFUNC,*/ OPENPARENT;
+terminal CLOSEPARENT, COMMA, EQUAL; /*DOUBLEPOINTS, OPENBRACK, CLOSEBRACK;*/
+terminal READ, WRITE, /*RETURN,*/ IF, THEN, ELSE, ENDIF, WHILE, DO, ENDWHILE;
+terminal FOR, FROM, TO, ENDFOR, TRUE, FALSE,  PLUS, MINUS, TIMES, DIVIDE;
+terminal EQUALS, DIFF, INF, INFEQUAL, SUP, SUPEQUAL, AND, OR, TILDA, NOT;
+
+terminal String IDENT, STRINGCONST, TINTEGER, TBOOLEAN, CONSTANT;
+terminal int INTEGERCONST;
+
+// Non terminal rules that return a RESULT value
+non terminal ProgramDeclaration program, header;
+non terminal Block declar_lst, body;
+non terminal ArrayList<Instruction> instr_lst, declars;
+non terminal Instruction declar;
+non terminal DeclarVar declar_var;
+non terminal DeclarConst declar_const;
+non terminal Expression expr, access, operand;
+non terminal Instruction for_instr;
+non terminal Instruction while_instr;
+//non terminal Instruction return_instr;
+non terminal Instruction cond_instr;
+non terminal Instruction write_instr;
+non terminal Instruction read_instr;
+non terminal Instruction instr;
+non terminal Assignment assign;
+//non terminal index;
+non terminal Unary op_una;
+non terminal Binary op_bin;
+
+non terminal ArrayList<Idf> l_ident;
+non terminal String type;
+non terminal String typebase;
+
+// Precedences
+precedence left PLUS, MINUS, TIMES, DIVIDE, EQUALS, DIFF;
+precedence left INF, SUP, INFEQUAL, SUPEQUAL, AND, OR/*, DOUBLEPOINTS*/;
+precedence right TILDA, NOT;
+
+program ::= header:p declar_lst:d STARTPRG body:i ENDPRG {: p.setInstructions(i); p.setDeclarations(d); RESULT = p; /*TDStoString(TDS); System.out.println(p.toString());*/ :};
+
+header ::= PRG IDENT:id {: RESULT = new ProgramDeclaration(new Idf(id, "", idleft, idright), "", idleft, idright, TDS); :};
+
+declar_lst ::= declars:o {: RESULT = new Block(o, "", oleft, oright); :};
+
+declars ::= {: RESULT = new ArrayList(); :} |
+    declars:a declar:b {: a.add(b); RESULT = a; :};
+
+declar ::= declar_var:o {: RESULT = o; :} |
+    declar_const:o {: RESULT = o; :};
+
+declar_var ::= type:o l_ident:i SEMICOLON:e {: RESULT = new DeclarVar(o, i, "", eleft, eright); addVarToTDS(i,TDS, o); :};
+
+l_ident ::= IDENT:o {: ArrayList<Idf> tmp = new ArrayList(); tmp.add( new Idf( o, "", oleft, oright) ); RESULT = tmp; :} |
+    l_ident:i COMMA IDENT:o {: i.add(new Idf( o, "", oleft, oright)); RESULT = i; :};
+
+type ::= typebase:o {: RESULT = o; :};
+
+typebase ::= TINTEGER {: RESULT = "entier"; :} |
+    TBOOLEAN {: RESULT = "booleen"; :};
+
+declar_const ::= CONSTANT:o type:o1 IDENT:o2 EQUAL:o3 expr:o4 SEMICOLON {: RESULT = new DeclarConst(o, o1, new Idf( o2, "", o2left, o2right), o4, "", o3left, o3right); TDS.put(o2, new Symbole(o2,o4.toString(),o1,true));:};
+
+expr ::= expr:left op_bin:op expr:right {: op.setLeft(left); op.setRight(right); RESULT = op; :} |
+    OPENPARENT:o expr:e CLOSEPARENT {: RESULT = new Parenthesis(e, "", oleft, oright); :} |
+    op_una:o expr:e {: o.setOperande(e); RESULT = o; :} |
+    operand:o {: RESULT = o; :};
+
+op_bin ::= PLUS:o {: RESULT = new Addition("", oleft, oright); :} |
+    MINUS:o    {: RESULT = new Sub("", oleft, oright); :} |
+    TIMES:o    {: RESULT = new Mult("", oleft, oright); :} |
+    DIVIDE:o   {: RESULT = new Division("", oleft, oright); :} |
+    EQUALS:o   {: RESULT = new Equal("", oleft, oright); :} |
+    DIFF:o     {: RESULT = new Different("", oleft, oright); :} |
+    INF:o      {: RESULT = new Inferior("", oleft, oright); :} |
+    SUP:o      {: RESULT = new Superior("", oleft, oright); :} |
+    INFEQUAL:o {: RESULT = new InfEqual("", oleft, oright); :} |
+    SUPEQUAL:o {: RESULT = new SupEqual("", oleft, oright); :} |
+    AND:o      {: RESULT = new And("", oleft, oright); :} |
+    OR:o       {: RESULT = new Or("", oleft, oright); :};
+
+op_una ::= TILDA:o {: RESULT = new Tilda("", oleft, oright); :} |
+    NOT:o   {: RESULT = new Not("", oleft, oright);   :} |
+    PLUS:o  {: RESULT = new AddUnary("", oleft, oright); :} |
+    MINUS:o {: RESULT = new SubUnary("", oleft, oright); :};
+
+operand ::= access:o {: RESULT = o; :} |
+    INTEGERCONST:ib {: RESULT = new Number(ib, "", ibleft, ibright); :} |
+    TRUE:o          {: RESULT = new True("", oleft, oright); :} |
+    FALSE:o         {: RESULT = new False("", oleft, oright); :};
+
+access ::= IDENT:id {: RESULT = new Idf(id, "", idleft, idright); :};
+
+body ::= instr_lst:instructions {: RESULT = new Block(instructions, "", instructionsleft, instructionsright); :};
+
+instr_lst ::= {: RESULT = new ArrayList(); :} |
+    instr_lst:instructionList instr:instruction {: ArrayList<Instruction> instructions = new ArrayList<Instruction>(instructionList); instructions.add(instruction); RESULT = instructions; :};
+
+instr ::= assign:o {: RESULT = o; :} |
+    write_instr:o {: RESULT = o; :} |
+    read_instr:o  {: RESULT = o; :} |
+    cond_instr:o  {: RESULT = o; :} |
+    while_instr:o {: RESULT = o; :} |
+    for_instr:o   {: RESULT = o; :};
+
+assign ::= access:dest EQUAL:e expr:src SEMICOLON {: RESULT = new Assignment(dest, src, "", eleft, eright); :};
+
+write_instr ::= WRITE:o expr:e SEMICOLON {: RESULT = new Write(e, "", oleft, oright); :} |
+    WRITE:o STRINGCONST:s SEMICOLON {: RESULT = new Write(s, "", oleft, oright); :};
+
+read_instr ::= READ:o IDENT:i SEMICOLON {: RESULT = new Read(new Idf(i, "", ileft, iright) ,"", oleft, oright); :};
+
+cond_instr ::= IF:o expr:e THEN body:b1 ELSE body:b2 ENDIF {: RESULT = new Condition(b2.getInstructions(), b1.getInstructions(), e, "", oleft, oright); :} |
+    IF:o expr:e THEN body:b1 ENDIF {: RESULT = new Condition(b1.getInstructions(), e, "", oleft, oright); :};
+
+while_instr ::= WHILE:o expr:e DO body:b ENDWHILE {: RESULT = new While(b.getInstructions(), e, "", oleft, oright); :};
+
+for_instr ::= FOR:o IDENT:id FROM expr:e1 TO expr:e2 DO body:b ENDFOR {: RESULT = new For(b.getInstructions(), new Idf(id, "", idleft, idright), e1, e2, "", oleft, oright); :};

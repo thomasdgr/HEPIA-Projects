@@ -1,0 +1,1804 @@
+Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Distance: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 
+Ville d'origine:
+Ville de destination:
+Parcours: Choix  0: quitter
+Choix  1: liste des villes
+Choix  2: matrice des poids
+Choix  3: liste des poids
+Choix  4: matrice des temps de parcours (Floyd)
+Choix  5: matrice des précédences (Floyd)
+Choix  6: temps de parcours entre deux villes (Floyd)
+Choix  7: parcours entre deux villes (Floyd)
+Choix  8: tableau des temps de parcours (Dijkstra)
+Choix  9: tableau des précédences (Dijkstra)
+Choix 10: temps de parcours entre deux villes (Dijkstra)
+Choix 11: parcours entre deux villes (Dijkstra)
+Choix 12: ajout d'une ville
+Choix 13: ajout d'une liaison
+Choix 14: suppression d'une ville
+Choix 15: suppression d'une liaison
+Choix 16: graphe connexe?
+Choix 17: sauver (format XML)
+Entrez votre choix: 

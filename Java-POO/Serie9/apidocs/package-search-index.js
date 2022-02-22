@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ch.hepia.devices.database"},{"l":"ch.hepia.devices.device"},{"l":"ch.hepia.devices.status"}];updateSearchResults();

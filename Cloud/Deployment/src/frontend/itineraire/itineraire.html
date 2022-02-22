@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hessncf</title>
+    <meta name="author" content="Thomas & Dorian">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="itineraire.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../caroussel.css">
+    <link rel="stylesheet" href="../content-box.css">
+    <link rel="icon" href="../images/favicon.ico"/>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="dropdown-menu">
+            <img id ="button" src="../images/button.png">
+            <div class="dropdown-content">
+                <a class="border" href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+                <a class="border" href="../classements/classements.html">Classements</a>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </div>
+        </div>
+        <a class="icon" href="../index.html">
+            <img id = "logo" src="../images/logo.png">
+        </a>
+        <ul>
+            <li>
+                <a href="../itineraire/itineraire.html">Prévoir mon trajet</a>
+            </li>
+            <li>
+                <a href="../classements/classements.html">Classements</a>
+            </li>
+            <li>
+                <a href="../actualites/actualites.html">Actualités</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="caroussel">
+        <img src="../images/dorian_regarde_un_train_qui_est_dans_un_train_et_qui_regarde_un_train.png" alt>   
+        <form action="" method="">
+            <div class="content-box">
+                <ul>
+                    <li>
+                        <label for="source">Lieu de départ</label><br>
+                        <input class="input_el" type="text" id="source" placeholder="Source" required>
+                    </li>
+                    <li> 
+                        <img id="arrow" src="../images/arrow.png" alt>   
+                    </li>
+                    <li> 
+                        <label for="destination">Lieu d'arrivée</label><br>
+                        <input class="input_el" type="text" id="destination" placeholder="Destination" required>
+                    </li>
+                    <li> 
+                        <img id="icon" src="../images/calendar_icon.png" alt>   
+                    </li>
+                    <li>
+                        <label for="date">Date du départ</label><br>
+                        <input class="input_el" type="date" id="start_date" name="trip-start" min="2021-01-01" max="2022-12-31" required>
+                    </li>
+                    <li> 
+                        <img id="icon" src="../images/clock_icon.png" alt>   
+                    </li>
+                    <li>
+                        <label for="Heure">Heure du départ</label><br>
+                        <input class="input_el" type="time" id="start_hour" name="appt" min="00:00" max="24:00" required>
+                    </li>
+                    <li>
+                        <!--<input type="submit" id="butt" value="rechercher" size="30" onclick="rechercher()" ><br>-->
+                        <input type="button" id="butt" value="rechercher" size="30" onclick="rechercher()" ><br>
+                    </li>
+                </ul>      
+            </div>
+        </form>  
+    </div>
+
+    
+
+    <div class="bottom_block">
+        <div id="details">
+            <p id="info_res">Horaire disponible : </p>
+            <p id="departure_time"></p>
+            <p id="arrival_time"></p>
+        </div>
+
+        <img id="carte" src="../images/carte.jpg">
+        
+    </div>
+
+
+    <div class="footer">
+        <ul>
+            <li>
+                <a class="menu_sub" href="../apropos/apropos.html">A Propos</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://www.sncf.com/fr">Le vrai site de la sncf</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="../cgu/cgu.html">Mentions légales & CGU</a>
+            </li>
+            <li>
+                <a class="menu_sub" href="https://youtu.be/awmQrt_AERY">Données personnelles & cookies</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script type="text/javascript" src="itineraire.js"></script>
+
+</html>

@@ -1,0 +1,213 @@
+<reseau>
+    <titre> CFF </titre>
+    <ville>
+        <nom> Geneve </nom>
+        <longitude> 500 </longitude>
+        <latitude> 118 </latitude>
+    </ville>
+    <ville>
+        <nom> Lausanne </nom>
+        <longitude> 538 </longitude>
+        <latitude> 153 </latitude>
+    </ville>
+    <ville>
+        <nom> Neuchatel </nom>
+        <longitude> 560 </longitude>
+        <latitude> 205 </latitude>
+    </ville>
+    <ville>
+        <nom> Delemont </nom>
+        <longitude> 580 </longitude>
+        <latitude> 242 </latitude>
+    </ville>
+    <ville>
+        <nom> Bale </nom>
+        <longitude> 612 </longitude>
+        <latitude> 267 </latitude>
+    </ville>
+    <ville>
+        <nom> Berne </nom>
+        <longitude> 601 </longitude>
+        <latitude> 199 </latitude>
+    </ville>
+    <ville>
+        <nom> Lucerne </nom>
+        <longitude> 666 </longitude>
+        <latitude> 212 </latitude>
+    </ville>
+    <ville>
+        <nom> Zurich </nom>
+        <longitude> 683 </longitude>
+        <latitude> 248 </latitude>
+    </ville>
+    <ville>
+        <nom> Schaffouse </nom>
+        <longitude> 690 </longitude>
+        <latitude> 283 </latitude>
+    </ville>
+    <ville>
+        <nom> St.-Gall </nom>
+        <longitude> 746 </longitude>
+        <latitude> 255 </latitude>
+    </ville>
+    <ville>
+        <nom> Coire </nom>
+        <longitude> 760 </longitude>
+        <latitude> 192 </latitude>
+    </ville>
+    <ville>
+        <nom> St.-Moritz </nom>
+        <longitude> 785 </longitude>
+        <latitude> 153 </latitude>
+    </ville>
+    <ville>
+        <nom> Bellinzone </nom>
+        <longitude> 723 </longitude>
+        <latitude> 117 </latitude>
+    </ville>
+    <ville>
+        <nom> Andermatt </nom>
+        <longitude> 675 </longitude>
+        <latitude> 160 </latitude>
+    </ville>
+    <ville>
+        <nom> Sion </nom>
+        <longitude> 595 </longitude>
+        <latitude> 120 </latitude>
+    </ville>
+    <liaison>
+        <vil_1> Geneve </vil_1>
+        <vil_2> Lausanne </vil_2>
+        <temps> 34 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Lausanne </vil_1>
+        <vil_2> Neuchatel </vil_2>
+        <temps> 40 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Lausanne </vil_1>
+        <vil_2> Berne </vil_2>
+        <temps> 67 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Lausanne </vil_1>
+        <vil_2> Sion </vil_2>
+        <temps> 67 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Neuchatel </vil_1>
+        <vil_2> Delemont </vil_2>
+        <temps> 49 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Neuchatel </vil_1>
+        <vil_2> Bale </vil_2>
+        <temps> 87 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Neuchatel </vil_1>
+        <vil_2> Berne </vil_2>
+        <temps> 42 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Delemont </vil_1>
+        <vil_2> Bale </vil_2>
+        <temps> 34 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Delemont </vil_1>
+        <vil_2> Berne </vil_2>
+        <temps> 60 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Bale </vil_1>
+        <vil_2> Berne </vil_2>
+        <temps> 66 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Bale </vil_1>
+        <vil_2> Lucerne </vil_2>
+        <temps> 73 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Bale </vil_1>
+        <vil_2> Zurich </vil_2>
+        <temps> 60 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Berne </vil_1>
+        <vil_2> Lucerne </vil_2>
+        <temps> 83 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Berne </vil_1>
+        <vil_2> Zurich </vil_2>
+        <temps> 79 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Berne </vil_1>
+        <vil_2> Sion </vil_2>
+        <temps> 157 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Lucerne </vil_1>
+        <vil_2> Zurich </vil_2>
+        <temps> 46 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Lucerne </vil_1>
+        <vil_2> Bellinzone </vil_2>
+        <temps> 132 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Lucerne </vil_1>
+        <vil_2> Andermatt </vil_2>
+        <temps> 102 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Zurich </vil_1>
+        <vil_2> Schaffouse </vil_2>
+        <temps> 42 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Zurich </vil_1>
+        <vil_2> St.-Gall </vil_2>
+        <temps> 66 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Zurich </vil_1>
+        <vil_2> Coire </vil_2>
+        <temps> 91 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Schaffouse </vil_1>
+        <vil_2> St.-Gall </vil_2>
+        <temps> 87 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> St.-Gall </vil_1>
+        <vil_2> Coire </vil_2>
+        <temps> 99 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Coire </vil_1>
+        <vil_2> St.-Moritz </vil_2>
+        <temps> 116 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Coire </vil_1>
+        <vil_2> Andermatt </vil_2>
+        <temps> 100 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Bellinzone </vil_1>
+        <vil_2> Andermatt </vil_2>
+        <temps> 84 </temps>
+    </liaison>
+    <liaison>
+        <vil_1> Andermatt </vil_1>
+        <vil_2> Sion </vil_2>
+        <temps> 162 </temps>
+    </liaison>
+</reseau>

@@ -1,0 +1,11 @@
+EX 1:
+  sur baobab: mpicc ex1.c puis mpirun -n 2 a.out (à lancer avec mpi et pas sbatch)
+  -> ca bloque car au dela d'une certaine taille le send devient bloquant
+  -> quand on a un petit tableau, on envoie le tableau et on peut toujours y accèder
+     par contre quand on a un gros tableau, on est obligé d'attendre qu'il ait été envoyé avant de pouvoir y accèder à nouveau
+
+EX 2:
+  On fait un send de 1000000 donc évidement ca bloque à cause de la quantité de données à envoyer
+
+EX 3:
+  Pas fait

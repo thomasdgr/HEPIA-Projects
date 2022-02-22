@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis-pod
+  labels:
+    component: redis
+    app: todo
+spec:
+  containers:
+  - name: redis-container
+    image: redis
+    ports:
+    - containerPort: 6379
+    resources:
+      limits:
+        cpu: 100m
+    args:
+    - redis-server
+    - --requirepass ccp2
+    - --appendonly yes

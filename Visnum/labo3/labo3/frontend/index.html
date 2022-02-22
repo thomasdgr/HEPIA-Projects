@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Visnum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="author" content="Thomas" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div>
+            <div class="graph-cont">
+                <div id="bar0" class="bar">0</div>
+                <div id="bar1" class="bar">1</div>
+                <div id="bar2" class="bar">2</div>
+                <div id="bar3" class="bar">3</div>
+                <div id="bar4" class="bar">4</div>
+                <div id="bar5" class="bar">5</div>
+                <div id="bar6" class="bar">6</div>
+                <div id="bar7" class="bar">7</div>
+                <div id="bar8" class="bar">8</div>
+                <div id="bar9" class="bar">9</div>
+            </div>
+            <div class="selector">
+                <button type="button" class="child" id="btnClear">clear canvas</button>
+                <button type="button" class="child" id="btnSend">send data</button>
+                <button type="button" class="child" id="btnTrain">train ia</button>
+                <button type="button" class="child" id="btnGuess">guess number</button>
+                <select id="number_ref" class="child">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>

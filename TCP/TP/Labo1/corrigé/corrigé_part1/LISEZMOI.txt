@@ -1,0 +1,6 @@
+1. Ouvrer la console dans le dossier contenant les fichier du labo
+2. Effectuez un « make » avec l’option non-obligatoire « TESTFILE=… » (ou les … est le nom du fichier à analyser). Si cette option n’est pas indiquée cela prendra comme nom de fichier par défaut : test.txt
+
+Exemples :
+a. make
+b. make TESTFILE=test_faux.txt

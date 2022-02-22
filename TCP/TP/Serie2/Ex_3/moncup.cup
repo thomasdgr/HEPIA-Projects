@@ -1,0 +1,46 @@
+import java_cup.runtime.*;
+import java.util.Vector;
+import java.io.*;
+
+parser code {:
+
+//public int t;
+
+:}
+
+terminal Integer ID;
+terminal ADD,SUB,MUL,DIV,PG,PD,VRG;
+
+non terminal Integer e;
+non terminal Integer t;
+non terminal Integer f;
+non terminal s;
+
+// NOTE : E:i correspond à la valeur actuelle de E
+
+// S -> E,E ...
+s ::= s e:m VRG {: System.out.println("--> " + m.intValue()); :} |
+	  e:m VRG {: System.out.println("--> " + m.intValue()); :}
+;
+
+// E -> E + T | E - T | T
+e ::= e:m ADD t:n {: RESULT = new Integer(m.intValue() + n.intValue()); :} |
+      e:m SUB t:n {: RESULT = new Integer(m.intValue() - n.intValue()); :} |
+	        t:m {: RESULT = new Integer(m.intValue()); :}
+;
+
+// T -> T * F | T / F | F
+t ::= t:m MUL f:n {: RESULT = new Integer(m.intValue() * n.intValue()); :} |
+      t:m DIV f:n {: RESULT = new Integer(m.intValue() / n.intValue()); :} |
+	        f:m {: RESULT = new Integer(m.intValue()); :}
+;
+
+// F -> -F | +F
+f ::= SUB f:m {: RESULT = new Integer(-m.intValue()); :} |
+      ADD f:m {: RESULT = new Integer(m.intValue()); :}
+;
+
+// F -> (E) | id
+f ::= PG e:m PD {: RESULT = new Integer(m.intValue()); :} |
+           ID:m {: RESULT = new Integer(m.intValue()); :}
+;

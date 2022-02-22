@@ -1,0 +1,138 @@
+/* CAROUSSEL -> CONTENT BOX */
+
+#arrow{
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px 0px -30px;
+}
+
+#icon{
+    width: 30px;
+    height: 30px;
+    margin: 20px 5px 0px -30px;
+}
+
+.input_el{
+    width: 160px;
+    height: 15px;
+    margin-right: 50px;
+}
+
+#butt{
+    margin-top: 18px;
+    height: auto;
+}
+
+@media (max-width: 1200px){
+    .content-box{
+        top: 20%;
+        width: 400px;
+        height: auto;
+    }
+    .content-box > ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:left;
+        flex-wrap: wrap;
+        list-style: none; 
+        margin-top: 40px;
+    }
+    .content-box > ul > li{
+        margin-bottom: 20px;
+    }
+    #arrow, #icon{
+        display: none;
+    }
+}
+
+@media (min-width: 3500px){
+    .content-box{
+        top: 50%;
+        width: 1400px;
+        height: auto;
+    }
+    .content-box > ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:left;
+        flex-wrap: wrap;
+        list-style: none; 
+        margin-top: 40px;
+    }
+    .content-box > ul > li{
+        margin-bottom: 20px;
+    }
+    #arrow, #icon{
+        display: none;
+    }
+    #carte{
+        width: 100%;
+    }
+}
+
+/* Content */
+
+.bottom_block{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    max-width: 1200px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+#details{
+    margin-top: 15px;
+    background-color:rgb(153, 157, 158);
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+}
+
+#details > p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+#info_res{
+    text-decoration: none;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+#carte{
+    width: 69%;
+    height: 458px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1200px){
+    .bottom_block{
+        width: 100%;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #details, #carte{
+        width: 90%;
+    }
+    #details > p{
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 10px;
+        padding-bottom: 0;
+    }
+}
+/* FOOTER */
+
+@media (min-width: 2600px) {
+    .footer{
+        position: fixed;
+    }
+}

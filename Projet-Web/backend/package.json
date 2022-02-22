@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for Hessncf retard",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "node server.js",
+    "start2": "node authServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitedu.hesge.ch/dorian.bernasco/app-et-archi-web-tp-2020.git"
+  },
+  "author": "Thomas Bernasconi Dorian Dagier",
+  "license": "Hessncf®"
+}

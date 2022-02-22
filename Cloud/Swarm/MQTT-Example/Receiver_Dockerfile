@@ -1,0 +1,6 @@
+FROM python:3.6
+WORKDIR /Receiver
+RUN pip install paho-mqtt
+COPY receiver.py .
+
+CMD ["python", "-u", "receiver.py"]

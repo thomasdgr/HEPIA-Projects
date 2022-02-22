@@ -1,0 +1,15 @@
+id: 23
+address: 127.0.0.23
+neighbours:
+- id: 14
+  address: 127.0.0.14
+  edge_weight: 1
+- id: 18
+  address: 127.0.0.18
+  edge_weight: 1
+- id: 21
+  address: 127.0.0.21
+  edge_weight: 1
+- id: 24
+  address: 127.0.0.24
+  edge_weight: 1

@@ -1,0 +1,20 @@
+<A>
+tata1
+<C/>
+<#set showText="test"/>
+tata2
+<D d="1,23">
+<#set id="12"/>
+<#if id=="15">
+ID15
+<#if/>
+<#if showText=="test">
+showTextTEST
+<#if/>
+tata3
+</D>
+tata4
+<#if id=="12">
+ID12
+<#if/>
+</A>

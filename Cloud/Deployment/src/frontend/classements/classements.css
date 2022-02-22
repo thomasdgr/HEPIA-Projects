@@ -1,0 +1,115 @@
+/*Classement*/
+
+.image {
+    padding-top: 50px;
+}
+
+#podium1, #podium2, #podium3, #podium4{
+    position:relative;
+    width: 1100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.bottom_block{
+    max-width: 1100px;
+    padding-top: 20px;
+    margin: auto;   
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
+.border{
+    border-bottom: solid 1px black;
+}
+
+#bouton{
+    width: 30%;
+    height: auto;
+}
+
+#bouton-ul, #text-ul{
+    list-style-type: none;
+    border-radius: 20px;
+    background-color:rgb(187, 189, 190);
+    height: auto;
+    padding-right: 40px;
+    
+}
+
+#bouton-ul > li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#bouton-ul > li > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+}
+
+#text{
+    width: 65%;
+}
+
+#text-ul{
+    background-color:rgb(233, 236, 240);
+}
+
+#text-ul > li{
+    padding-top: 13px;
+    padding-bottom: 14px;
+}
+
+#text-ul > li > p{
+    font-family: sans-serif;
+}
+
+@media (max-width: 1300px){
+    #podium1, #podium2, #podium3, #podium4{
+        position:relative;
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding: 0px 20px 0px 20px;
+    }
+    .bottom_block{
+        width: 100%;
+        padding-top: 60px;
+        margin: auto;   
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content:left;
+        overflow: hidden;
+    }
+    #bouton{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
+    }
+    #text{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
+    }
+}
+
+/* FOOTER */
+
+@media (min-width: 3400px) {
+    .footer{
+        position: fixed;
+    }
+}

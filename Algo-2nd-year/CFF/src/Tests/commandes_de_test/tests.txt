@@ -1,0 +1,39 @@
+1. Pour les entrées 6, 7, 10 et 11, prendre 20 paires de villes et pour chaque paire vérifier:
+- le temps de parcours
+- le parcours
+
+2. Pour les entrées 12, 14 et 16:
+- ajouter 5 nouvelles villes en testant la connexité après chaque ajout
+- supprimer ces mêmes 5 villes en testant la connexité après chaque suppression
+
+3. Pour les entrées 13, 15 et 16:
+- supprimer 10 liaisons en testant la connexité après chaque suppression
+- ajouter à nouveau ces 10 liaisons en testant la connexité après chaque ajout
+
+4. Pour les entrées 14 et 16:
+- supprimer 6 villes en testant après chaque suppression la connexité
+
+5. Pour les entrées 6, 7, 10, 11 et 13:
+- ajouter 5 nouvelles liaisons
+- refaire le test des 20 paires de villes
+
+6. Pour les entrées 6, 7, 10, 11 et 15:
+- supprimer 5 liaisons existantes
+- refaire le test des 20 paires de villes
+
+7. Pour les entrées 6, 7, 10, 11, 13 et 15:
+- ajouter 5 nouvelles liaisons
+- supprimer ces mêmes 5 liaisons
+- refaire le test des 20 paires de villes
+
+8. Pour les entrées 6, 7, 10, 11 et 14:
+- supprimer 3 villes qui ne déconnecte pas le graphe
+- refaire le test des 20 paires de villes
+
+9. Pour les entrées 6, 7, 10, 11 et 14:
+- supprimer 3 villes qui déconnecte le graphe
+- refaire le test des 20 paires de villes
+
+10. Pour les entrées 6, 7, 10 à 15:
+- ajouter quelques villes et leurs liaisons, et aussi supprimer des villes et des liaisons (sans déconnecter le graphe) pour modifier les parcours et leurs temps
+- refaire le test des 20 paires de villes
