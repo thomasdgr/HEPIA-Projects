@@ -1,0 +1,49 @@
+diff --git a/labs/labs-qemu/lab-qemu_basics.md b/labs/labs-qemu/lab-qemu_basics.md
+index 9390924..b88b6b7 100644
+--- a/labs/labs-qemu/lab-qemu_basics.md
++++ b/labs/labs-qemu/lab-qemu_basics.md
+@@ -432,29 +432,23 @@ La carte graphique est probablement émulée.
+ ### Partie 4B
+ 
+-Démarrez à nouveau la VM mais cette fois-ci en précisant le driver graphique `qxl`. L'argument `-vga` permet de spécifier le type de contrôleur graphique que QEMU doit utiliser.
++Démarrez à nouveau la VM mais cette fois-ci en précisant le contrôleur graphique paravirtualisé `virtio`. L'argument `-vga` permet de spécifier le type de contrôleur graphique que QEMU doit utiliser.
+ 
+ - Quelle est le nom de la carte graphique installée\ ? Pensez-vous qu'il s'agit d'une carte graphique émulée ou paravirtualisée\ ?
+  
+-- Que remarquez vous si vous inspectez les modules kernel lié à QXL\ ?
++- En inspectant les modules noyau, en voyez-vous liés à l'affichage paravirtualisé\ ?
+ 
+@@ -464,21 +458,33 @@ Vous allez maintenant expérimenter avec l'affichage graphique distant de VMs gr
+ 
+ Démarrez la même VM que dans la partie précédente de sorte à ce qu'elle devienne un serveur Spice. Pour activer le serveur Spice dans QEMU, ajoutez les arguments suivants (en plus de ceux utilisés habituellement) :
+ 
+-- `-device virtio-serial-pci`
+-- `-spice port=5930,disable-ticketing`
+-- `-device virtserialport,chardev=spicechannel0,name=com.redhat.spice.0`
+-- `-chardev spicevmc,id=spicechannel0,name=vdagent`
++```
++-device virtio-serial-pci
++-spice port=5930,disable-ticketing
++-device virtserialport,chardev=spicechannel0,name=com.redhat.spice.0
++-chardev spicevmc,id=spicechannel0,name=vdagent
++```
++
++Aussi, on désire améliorer les performances réseau de notre guest. Pour cela, spécifiez une interface réseau paravirtualisée avec l'argument :
++
++```
++-nic user,model=virtio-net-pci
++```
+  
++Démarrez donc une VM où QEMU exécute un serveur spice et utilise une carte réseau paravirtualisée avec les arguments mentionnés ci-dessous.
++
+ ### Partie 4D
+ 
+-Sur une autre machine, par example la machine d'un camarade (qui doit se trouver sur le même réseau), utilisez le client `spicy` (ou `spice-client-gtk`) pour vous connecter à la VM s'exécutant sur votre machine (à noter que la combinaison de touches **shift+F12** permet de sortir du mode plein-écran).
++Sur une autre machine, par exemple la machine d'un camarade (qui doit se trouver sur le même réseau), utilisez le client `spicy` (ou `spice-client-gtk`) pour vous connecter à la VM s'exécutant sur votre machine (à noter que la combinaison de touches **shift+F12** permet de sortir du mode plein-écran).
++
++Exécutez alors `chocolate-doom` à distance afin de voir si le jeu est jouable ou pas (il devrait l'être) !
+ 
++- Le jeu Doom est-il jouable ?
++
+ ### Partie 4E
+ 

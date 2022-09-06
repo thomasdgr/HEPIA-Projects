@@ -1,0 +1,15 @@
+FROM ubuntu:latest
+LABEL maintainer="Yoda"
+
+ENV DEBIAN_FRONTEND noninteractive
+
+ENV HISTSIZE=1000
+ENV EDITOR=vim
+
+RUN apt-get update -y \
+  && apt-get install -y \
+  gnome
+
+RUN rm -rf /var/lib/apt/lists/*
+
+CMD ["ls", "/"]

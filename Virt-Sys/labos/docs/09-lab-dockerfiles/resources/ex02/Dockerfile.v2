@@ -1,0 +1,9 @@
+FROM debian:latest
+LABEL maintainer="Yoda"
+
+RUN apt-get update -y \
+  && apt-get install -y --no-install-recommends \
+  vim \
+  && rm -rf /var/lib/apt/lists/*
+
+CMD ["ls", "/"]
