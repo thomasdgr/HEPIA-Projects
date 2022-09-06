@@ -1,0 +1,53 @@
+---
+author: # Les différents auteurs de votre travail
+- THOMAS DAGIER
+title: "Simulation de transports publics: l'import de Genève dans A/B Street" # Le titre de votre travail
+smallTitle: "Simulation de transports publics" # Le "petit" titre de votre travail, càd le titre qui sera affiché en haut de chaque page
+institute: Haute École du Paysage, d'Ingénierie et d'Architecture de Genève
+name: Thomas # Votre prénom
+surname: DAGIER # Votre nom de famille
+keywords: [Rapport, bachelor, A/B Street, GTFS, transit, HEPIA, TPG, OpenStreetMap, banantwan] # Des mots-clés qui apparaîtront dans les métadonnées du PDF
+orientation: Logiciel # Orientation logicielle, matérielle, telecom, etc.
+projectMonth: Septembre # Le mois pour lequel vous devez rendre votre travail
+year: 2022 # L'année de publication de votre travail
+sensei: Dr Orestis Pileas Malaspinas # Votre prof responsable
+frontLogoLegend: "Légende et source de l'illustration de couverture tirée de A/B Street disponible à l'adresse: " # La légende de l'image de couverture
+frontLogoSourceURL: "www.abstreet.org" # La source de l'image de couverture
+#dedicace: A tous ceux qui m’ont soutenu : merci. #CHANGEZ MOI # Si vous avez une dédicasse, mettez-là ici. Vous pouvez ne rien mettre, c'est permis.
+workTitle: Thèse de bachelor # "Thèse de bachelor" ou "Travail de semestre" (c'est pour le titre principal). Attention si c'est thèse de bachelor, modifiez le "présenté" la ligne 327 du fichier latex en "présentée".
+workFor: pour l’obtention du titre Bachelor of Science HES-SO en # Mettez rien si travail de semestre
+# NE PAS TOUCHER CE QUI EST PLUS BAS
+bibliography: my.bib
+csl: iso690.csl
+biblio-title: Références bibliographiques
+link-citations: true
+autoSectionLabels: false
+autoEqnLabels: true
+lang: fr
+documentclass: report
+papersize: A4
+cref: false
+fontsize: 12pt
+geometry:
+- left=25mm
+- right=25mm
+- headheight=25mm
+- top=25mm
+- bottom=25mm
+toc: true
+toc-depth: 2
+header-includes: |
+    \usepackage{fontspec}
+    \usepackage{graphicx}
+    \usepackage{sectsty}
+    \usepackage{enumitem}
+    \usepackage[toc]{glossaries}
+    \usepackage{wrapfig}
+    \usepackage{subcaption}
+    
+    \makenoidxglossaries
+    \sectionfont{\fontsize{12}{15}\selectfont}
+    \subsectionfont{\fontsize{12}{15}\selectfont}
+    \setlist[itemize]{label=\textbullet}
+    \input{text/ZZ-glossaire.tex}
+---

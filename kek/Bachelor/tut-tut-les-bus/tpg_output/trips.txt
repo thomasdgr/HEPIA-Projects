@@ -1,0 +1,165 @@
+route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,shape_id
+"91-12-j22-1","TA+jp000","903.TA.91-12-j22-1.7.R","Lancy-Bachet"," gare","0",0
+"91-12-j22-2","TA+e3","45.TA.91-12-j22-1.3.H","Thônex"," Moillesulaz","1",2
+"91-14-j22-1","TA+qV","126.TA.91-14-j22-1.3.H","Meyrin"," Gravière","0",1783
+"91-14-j22-2","TA+jp000","1058.TA.91-14-j22-1.6.R","Bernex"," Vailly","1",1786
+"91-15-j22-1","TA+qV","895.TA.91-15-j22-1.11.R","Grand-Lancy"," Place du 1er-Août","0",3677
+"91-15-j22-2","TA+qV","39.TA.91-15-j22-1.6.H","Genève"," Nations","1",3676
+"91-17-j22-1","TA+qV","442.TA.91-17-j22-1.13.R","Lancy-Pont-Rouge"," gare","0",5401
+"91-17-j22-2","TA+e3","8.TA.91-17-j22-1.5.H","Annemasse"," Parc Montessuit","1",5402
+"91-18-j22-1","TA+qV","596.TA.91-18-j22-1.15.R","Grand-Lancy"," Pontets","0",6246
+"91-18-j22-2","TA+qW","92.TA.91-18-j22-1.8.H","Meyrin"," CERN","1",6245
+"92-10-A-j22-1","TA+qW","62.TA.92-10-A-j22-1.3.H","Genève"," Rive","0",7260
+"92-10-A-j22-2","TA+qW","517.TA.92-10-A-j22-1.6.R","Genève-Aéroport"," Terminal","1",7701
+"92-11-j22-1","TA+qV","10.TA.92-11-j22-1.2.H","Genève-Eaux-Vives"," gare","0",8213
+"92-11-j22-2","TA+qV","582.TA.92-11-j22-1.4.R","Genève"," Jardin Botanique","1",8215
+"92-19-j22-1","TA+qV","180.TA.92-19-j22-1.4.H","Onex"," cité","0",9507
+"92-19-j22-2","TA+jp000","708.TA.92-19-j22-1.7.R","Vernier"," village","1",9355
+"92-1-j22-1","TA+qV","830.TA.92-1-j22-1.6.R","Thônex"," Hôpital Trois-Chêne","0",10488
+"92-1-j22-2","TA+qV","279.TA.92-1-j22-1.3.H","Genève"," Jardin Botanique","1",10485
+"92-20-A-j22-1","TA+qV","4.TA.92-20-A-j22-1.2.H","Bellevue GE"," Valavran","0",11587
+"92-20-A-j22-2","TA+qV","341.TA.92-20-A-j22-1.3.R","Genève"," Place de Neuve","1",11856
+"92-21-A-j22-1","TA+ip000","1.TA.92-21-A-j22-1.1.H","Carouge GE"," Rondeau","0",12259
+"92-21-A-j22-2","TA+qW","396.TA.92-21-A-j22-1.2.R","Onex"," cité","1",12588
+"92-22-A-j22-1","TA+e3","14.TA.92-22-A-j22-1.3.H","Plan-les-Ouates"," ZIPLO","0",13048
+"92-22-A-j22-2","TA+qV","432.TA.92-22-A-j22-1.8.R","Genève"," Jardin Botanique","1",13394
+"92-23-j22-1","TA+ip000","383.TA.92-23-j22-1.2.R","Grand-Saconnex"," Aéroport-P47","0",14168
+"92-23-j22-2","TA+e3","1.TA.92-23-j22-1.1.H","Carouge GE"," Tours","1",13853
+"92-25-j22-1","TA+qW","537.TA.92-25-j22-1.2.R","Thônex"," Vallard","0",14632
+"92-25-j22-2","TA+qW","1.TA.92-25-j22-1.1.H","Genève"," Jardin Botanique","1",14629
+"92-28-j22-1","TA+e3","409.TA.92-28-j22-1.3.R","Genève-Aéroport"," Terminal","0",16040
+"92-28-j22-2","TA+qV","1.TA.92-28-j22-1.1.H","Petit-Lancy"," Les Esserts","1",15702
+"92-2-j22-1","TA+qW","224.TA.92-2-j22-1.7.H","Confignon"," Cressy","0",16740
+"92-2-j22-2","TA+qV","747.TA.92-2-j22-1.11.R","Genève"," plage","1",16515
+"92-31-B-j22-1","TA+e3","238.TA.92-31-B-j22-1.3.R","Thônex"," Sous-Moulin","0",17821
+"92-31-B-j22-2","TA+e3","5.TA.92-31-B-j22-1.2.H","Puplinge"," Marquis","1",17667
+"92-32-C-j22-1","TA+qW","77.TA.92-32-C-j22-1.2.H","Jussy"," Monniaz-Hameau","0",18149
+"92-32-C-j22-2","TA+qV","309.TA.92-32-C-j22-1.5.R","Thônex"," Sous-Moulin","1",18300
+"92-33-C-j22-1","TA+jp000","239.TA.92-33-C-j22-1.3.R","Genève"," Rive","0",18766
+"92-33-C-j22-2","TA+qV","1.TA.92-33-C-j22-1.1.H","Puplinge"," Marquis","1",18615
+"92-34-A-j22-1","TA+qV","110.TA.92-34-A-j22-1.3.H","Choulex"," Chevrier","0",19093
+"92-34-A-j22-2","TA+qV","271.TA.92-34-A-j22-1.5.R","Veyrier"," Tournettes","1",19183
+"92-35-j22-1","TA+e3","1.TA.92-35-j22-1.1.H","Genève"," Beau-Séjour","0",19442
+"92-35-j22-2","TA+qV","339.TA.92-35-j22-1.2.R","Genève"," Sainte-Clotilde","1",19708
+"92-36-D-j22-1","TA+e3","10.TA.92-36-D-j22-1.2.H","Genève"," Place de Neuve","0",20118
+"92-36-D-j22-2","TA+e3","10.TA.92-36-D-j22-1.2.H","Genève"," Place de Neuve","1",20118
+"92-37-j22-1","TA+qV","227.TA.92-37-j22-1.2.R","Thônex"," Sous-Moulin","0",20495
+"92-37-j22-2","TA+qV","1.TA.92-37-j22-1.1.H","Jussy"," Lullier","1",20353
+"92-38-A-j22-1","TA+qV","1.TA.92-38-A-j22-1.1.H","Hermance"," village","0",20809
+"92-38-A-j22-2","TA+qV","187.TA.92-38-A-j22-1.3.R","Chêne-Bourg"," Place Favre","1",20906
+"92-39-A-j22-1","TA+e3","71.TA.92-39-A-j22-1.2.R","Vésenaz"," Pointe à la Bise","0",21184
+"92-39-A-j22-2","TA+e3","1.TA.92-39-A-j22-1.1.H","Presinge"," village","1",21182
+"92-3-A-j22-1","TA+qW","83.TA.92-3-A-j22-1.3.H","Genève"," Crêts-de-Champel","0",21322
+"92-3-A-j22-2","TA+qV","766.TA.92-3-A-j22-1.6.R","Grand-Saconnex"," Gardiol","1",21325
+"92-41-A-j22-1","TA+qW","1.TA.92-41-A-j22-1.1.H","Veyrier"," Petit-Veyrier","0",22699
+"92-41-A-j22-2","TA+qW","238.TA.92-41-A-j22-1.2.R","Carouge GE"," Tours","1",22853
+"92-42-j22-1","TA+e3","234.TA.92-42-j22-1.4.R","Carouge GE"," Rondeau","0",23322
+"92-42-j22-2","TA+e3","4.TA.92-42-j22-1.2.H","Bernex"," Lully-Croisée","1",23172
+"92-43-j22-1","TA+e3","25.TA.92-43-j22-1.2.H","Bernex"," Loëx-Hôpital","0",23645
+"92-43-j22-2","TA+e3","291.TA.92-43-j22-1.4.R","Plan-les-Ouates"," Bellins","1",23842
+"92-44-j22-1","TA+qV","1.TA.92-44-j22-1.1.H","Croix-de-Rozon"," douane","0",24195
+"92-44-j22-2","TA+jp000","224.TA.92-44-j22-1.2.R","Carouge GE"," Tours","1",24334
+"92-45-j22-1","TA+qV","1.TA.92-45-j22-1.1.H","Troinex"," ville","0",24639
+"92-45-j22-2","TA+qV","223.TA.92-45-j22-1.2.R","Carouge GE"," Tours","1",24777
+"92-46-C-j22-1","TA+qV","156.TA.92-46-C-j22-1.2.R","Carouge GE"," Stade de Genève","0",25143
+"92-46-C-j22-2","TA+qV","1.TA.92-46-C-j22-1.1.H","Bardonnex"," village","1",25080
+"92-47-B-j22-1","TA+ip000","10.TA.92-47-B-j22-1.2.H","Confignon"," croisée","0",25394
+"92-47-B-j22-2","TA+ip000","10.TA.92-47-B-j22-1.2.H","Confignon"," croisée","1",25394
+"92-48-A-j22-1","TA+qV","13.TA.92-48-A-j22-1.2.H","Confignon"," croisée","0",25708
+"92-48-A-j22-2","TA+qV","13.TA.92-48-A-j22-1.2.H","Confignon"," croisée","1",25708
+"92-50-A-j22-1","TA+qV","192.TA.92-50-A-j22-1.2.R","Genève-Aéroport"," Terminal","0",26121
+"92-50-A-j22-2","TA+jp000","1.TA.92-50-A-j22-1.1.H","Versoix"," centre sportif","1",26018
+"92-51-j22-1","TA+qV","14.TA.92-51-j22-1.4.H","Genève"," Mervelet","0",26409
+"92-51-j22-2","TA+qV","222.TA.92-51-j22-1.5.R","Vernier"," Renard","1",26407
+"92-52-j22-1","TA+qV","2.TA.92-52-j22-1.2.H","Bossy"," Bois-Chatton","0",0
+"92-52-j22-2","TA+qV","91.TA.92-52-j22-1.6.R","Genthod"," le Haut","1",26839
+"92-53-j22-1","TA+e3","75.TA.92-53-j22-1.2.H","Bellevue GE"," Valavran","0",27015
+"92-53-j22-2","TA+e3","352.TA.92-53-j22-1.4.R","Vernier"," Parfumerie","1",27218
+"92-54-B-j22-1","TA+qW","37.TA.92-54-B-j22-1.2.R","Genève-Aéroport"," Terminal","0",27594
+"92-54-B-j22-2","TA+qW","1.TA.92-54-B-j22-1.1.H","Versoix"," centre sportif","1",27564
+"92-55-B-j22-1","TA+uo000","82.TA.92-55-B-j22-1.2.H","Chavannes","Chavannes-des-Bois","0",27787
+"92-55-B-j22-2","TA+uo000","165.TA.92-55-B-j22-1.4.R","Bossy","Bossy","1",27713
+"92-56-j22-1","TA+jp000","49.TA.92-56-j22-1.2.R","Genève-Aéroport"," Terminal","0",27808
+"92-56-j22-2","TA+hp000","1.TA.92-56-j22-1.1.H","Meyrin"," Hôpital de La Tour","1",27806
+"92-57-j22-1","TA+e3","267.TA.92-57-j22-1.2.R","Genève-Aéroport"," Terminal","0",28092
+"92-57-j22-2","TA+qV","1.TA.92-57-j22-1.1.H","Zimeysa"," gare","1",27906
+"92-59-j22-1","TA+e3","146.TA.92-59-j22-1.2.R","Genève-Aéroport"," Terminal","0",28504
+"92-59-j22-2","TA+qW","1.TA.92-59-j22-1.1.H","Chambésy"," Plage du Vengeron","1",28452
+"92-5-j22-1","TA+qV","19.TA.92-5-j22-1.3.H","Genève-Aéroport"," Terminal","0",28742
+"92-5-j22-2","TA+e3","567.TA.92-5-j22-1.5.R","Thônex"," Vallard","1",28745
+"92-62-j22-1","TA+jp000","61.TA.92-62-j22-1.4.H","Collonges-sous-Salève"," marché","0",29856
+"92-62-j22-2","TA+qW","277.TA.92-62-j22-1.8.R","Plan-les-Ouates"," ZIPLO","1",30029
+"92-63-A-j22-1","TA+hp000","1.TA.92-63-A-j22-1.1.H","Viry"," église","0",30278
+"92-63-A-j22-2","TA+qW","69.TA.92-63-A-j22-1.2.R","Bernex"," Vailly","1",30280
+"92-64-C-j22-1","TA+e3","113.TA.92-64-C-j22-1.2.R","Meyrin"," Gravière","0",30410
+"92-64-C-j22-2","TA+e3","1.TA.92-64-C-j22-1.1.H","Ferney","  mairie","1",30394
+"92-66-A-j22-1","TA+uo000","28.TA.92-66-A-j22-1.2.H","Thoiry"," centre commercial","0",30736
+"92-66-A-j22-2","TA+e3","125.TA.92-66-A-j22-1.4.R","Genève-Aéroport"," Terminal","1",30624
+"92-68-j22-1","TA+qV","33.TA.92-68-j22-1.3.H","Thoiry"," centre commercial","0",30817
+"92-68-j22-2","TA+uo000","146.TA.92-68-j22-1.7.R","Meyrin"," CERN","1",30831
+"92-6-A-j22-1","TA+qV","60.TA.92-6-A-j22-1.3.H","Genève"," plage","0",31041
+"92-6-A-j22-2","TA+qW","497.TA.92-6-A-j22-1.5.R","Vernier"," village","1",31470
+"92-70-A-j22-1","TA+qW","1.TA.92-70-A-j22-1.1.H","Satigny"," gare","0",31967
+"92-70-A-j22-2","TA+qV","232.TA.92-70-A-j22-1.2.R","Confignon"," croisée","1",32115
+"92-71-A-j22-1","TA+e3","145.TA.92-71-A-j22-1.2.R","Meyrin"," Hôpital de La Tour","0",32473
+"92-71-A-j22-2","TA+e3","1.TA.92-71-A-j22-1.1.H","Satigny"," gare","1",32422
+"92-72-A-j22-2","TA+e3","1.TA.92-72-A-j22-1.1.H","Satigny"," gare","0",32716
+"92-72-A-j22-2","TA+e3","1.TA.92-72-A-j22-1.1.H","Satigny"," gare","1",32716
+"92-73-j22-1","TA+qV","89.TA.92-73-j22-1.3.H","Zimeysa"," gare","0",32868
+"92-73-j22-2","TA+qV","269.TA.92-73-j22-1.6.R","Satigny"," gare","1",33010
+"92-74-j22-1","TA+e3","5.TA.92-74-j22-1.2.H","La Plaine"," gare","0",33233
+"92-74-j22-2","TA+qW","144.TA.92-74-j22-1.3.R","Russin"," village","1",33282
+"92-75-B-j22-1","TA+hp000","25.TA.92-75-B-j22-1.3.H","Dardagny"," château","0",33511
+"92-75-B-j22-2","TA+jp000","48.TA.92-75-B-j22-1.6.R","La Plaine"," gare","1",33534
+"92-76-A-j22-1","TA+ip000","49.TA.92-76-A-j22-1.3.R","La Plaine"," gare","0",33611
+"92-76-A-j22-2","TA+hp000","1.TA.92-76-A-j22-1.1.H","Viry"," église","1",33572
+"92-77-A-j22-1","TA+hp000","45.TA.92-77-A-j22-1.2.R","La Plaine"," gare","0",33703
+"92-77-A-j22-2","TA+qW","1.TA.92-77-A-j22-1.1.H","Sézegnin"," Mairie d'Avusy","1",33664
+"92-78-B-j22-1","TA+qW","77.TA.92-78-B-j22-1.2.R","Chancy"," douane","0",33758
+"92-78-B-j22-2","TA+qW","1.TA.92-78-B-j22-1.1.H","La Plaine"," gare","1",33756
+"92-7-A-j22-1","TA+qW","568.TA.92-7-A-j22-1.9.R","Genève"," Bout-du-Monde","0",34384
+"92-7-A-j22-2","TA+w0100","75.TA.92-7-A-j22-1.5.H","Vernier"," Lignon-Tours","1",33910
+"92-86-A-j22-1","TA+hp000","21.TA.92-86-A-j22-1.2.R","Presinge"," village","0",34919
+"92-86-A-j22-2","TA+jp000","1.TA.92-86-A-j22-1.1.H","Annemasse"," gare Rotonde","1",34906
+"92-8-A-j22-1","TA+qW","738.TA.92-8-A-j22-1.9.H","Veyrier"," douane","0",34958
+"92-8-A-j22-2","TA+qW","857.TA.92-8-A-j22-1.13.R","Genève"," OMS","1",34961
+"92-9-j22-1","TA+qW","557.TA.92-9-j22-1.4.R","Thônex"," Belle-Terre-Place de l'Araire","0",36474
+"92-9-j22-2","TA+qW","10.TA.92-9-j22-1.2.H","Vernier"," Lignon-Tours","1",36472
+"92-A1-j22-1","TA+e3","1.TA.92-A1-j22-1.1.H","Grand-Saconnex"," Fret","0",37576
+"92-A1-j22-2","TA+e3","1.TA.92-A1-j22-1.1.H","Grand-Saconnex"," Fret","1",37576
+"92-A2-j22-1","TA+jp000","1.TA.92-A2-j22-1.1.H","Grand-Saconnex"," Fret","0",37588
+"92-A2-j22-2","TA+jp000","1.TA.92-A2-j22-1.1.H","Grand-Saconnex"," Fret","1",37588
+"92-A3-j22-1","TA+hp000","1.TA.92-A3-j22-1.1.R","Grand-Saconnex"," Fret","0",37606
+"92-A3-j22-2","TA+hp000","1.TA.92-A3-j22-1.1.R","Grand-Saconnex"," Fret","1",37606
+"92-A4-j22-1","TA+ip000","1.TA.92-A4-j22-1.1.H","Grand-Saconnex"," Fret","0",37618
+"92-A4-j22-2","TA+ip000","1.TA.92-A4-j22-1.1.H","Grand-Saconnex"," Fret","1",37618
+"92-A5-j22-1","TA+hp000","3.TA.92-A5-j22-1.2.H","Genève-Aéroport"," Grand-Hangar","0",37624
+"92-A5-j22-2","TA+hp000","3.TA.92-A5-j22-1.2.H","Genève-Aéroport"," Grand-Hangar","1",37624
+"92-A6-j22-1","TA+qV","1.TA.92-A6-j22-1.1.H","Grand-Saconnex"," Fret","0",37637
+"92-A6-j22-2","TA+qV","1.TA.92-A6-j22-1.1.H","Grand-Saconnex"," Fret","1",37637
+"92-A-j22-1","TA+e3","232.TA.92-A-j22-1.4.R","Genève"," Rive","0",37791
+"92-A-j22-2","TA+qV","5.TA.92-A-j22-1.2.H","Gy"," temple","1",37644
+"92-D-j22-1","TA+e3","1.TA.92-D-j22-1.1.H","Saint-Julien-en-Genevois"," SNCF","0",38112
+"92-D-j22-2","TA+qV","258.TA.92-D-j22-1.2.R","Genève"," Bel-Air","1",38288
+"92-E+-j22-1","TA+qW","1.TA.92-E+-j22-1.1.H","Hermance"," village","0",38623
+"92-E+-j22-2","TA+qW","9.TA.92-E+-j22-1.2.R","Genève"," Cornavin","1",38624
+"92-E-j22-1","TA+qV","6.TA.92-E-j22-1.2.H","Hermance"," village","0",38640
+"92-E-j22-2","TA+qW","377.TA.92-E-j22-1.4.R","Genève"," Rive","1",38938
+"92-F-j22-1","TA+qV","100.TA.92-F-j22-1.4.H","Gex"," L'Aiglette","0",39372
+"92-F-j22-2","TA+qV","295.TA.92-F-j22-1.8.R","Genève"," Cornavin","1",39473
+"92-G+-j22-1","TA+qW","21.TA.92-G+-j22-1.2.R","Genève"," Cornavin","0",39762
+"92-G+-j22-2","TA+qW","1.TA.92-G+-j22-1.1.H","Veigy"," douane","1",39749
+"92-G-j22-1","TA+qV","21.TA.92-G-j22-1.3.H","Veigy"," douane","0",39789
+"92-G-j22-2","TA+qV","287.TA.92-G-j22-1.7.R","Genève"," Rive","1",39959
+"92-J-j22-1","TA+qW","1.TA.92-J-j22-1.1.H","Avusy"," village","0",40290
+"92-J-j22-2","TA+qV","217.TA.92-J-j22-1.2.R","Carouge GE"," Stade de Genève","1",40421
+"92-K-j22-1","TA+e3","1.TA.92-K-j22-1.1.H","Chancy"," douane","0",40718
+"92-K-j22-2","TA+e3","217.TA.92-K-j22-1.3.R","Carouge GE"," Stade de Genève","1",40849
+"92-L-j22-1","TA+qW","224.TA.92-L-j22-1.4.R","Confignon"," croisée","0",41287
+"92-L-j22-2","TA+qV","6.TA.92-L-j22-1.2.H","Athenaz"," école","1",41148
+"92-M-j22-1","TA+e3","35.TA.92-M-j22-1.2.R","Collonges-Salève"," Bourg Haut","0",41616
+"92-M-j22-2","TA+uo000","1.TA.92-M-j22-1.1.H","Beaumont"," le Châble","1",41588
+"92-N-j22-1","TA+uo000","38.TA.92-N-j22-1.6.R","Saint-Julien"," Lycée de Staël","0",41720
+"92-N-j22-2","TA+uo000","4.TA.92-N-j22-1.3.H","Valleiry"," gare","1",41693
+"92-T-j22-1","TA+ip000","57.TA.92-T-j22-1.2.R","La Plaine"," gare","0",41819
+"92-T-j22-2","TA+hp000","1.TA.92-T-j22-1.1.H","Challex"," La Halle","1",41817

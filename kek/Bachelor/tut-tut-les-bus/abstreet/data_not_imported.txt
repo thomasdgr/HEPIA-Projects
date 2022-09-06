@@ -1,0 +1,199 @@
+FRANCE -> Gaillard-Millet (1400017-1)
+FRANCE -> Gaillard-Millet (1400017-2)
+FRANCE -> Lycée de Staël (1400361-1)
+FRANCE -> Rue des Muguets (1400646-1)
+FRANCE -> Ferney-Mairie (1400679-1)
+FRANCE -> Ferney-Mairie (1400679-4)
+FRANCE -> Gex-Centre (1400719-1)
+FRANCE -> Gex-Centre (1400719-2)
+FRANCE -> Casino (1400939-1)
+FRANCE -> Casino (1400939-2)
+FRANCE -> Prévessin-Moëns-Mairie (1401005-1)
+FRANCE -> Prévessin-Moëns-Mairie (1401005-2)
+FRANCE -> Saint-Genis-Jean Monnet (1401031-1)
+FRANCE -> Sergy-Gare (1401097-1)
+FRANCE -> Sergy-Gare (1401097-3)
+FRANCE -> Route de Feigères (1401231-1)
+FRANCE -> Saint-Julien-Centre (1401233-1)
+FRANCE -> Saint-Julien-Centre (1401233-2)
+FRANCE -> Cervonnex (1401235-1)
+FRANCE -> Cervonnex (1401235-2)
+FRANCE -> Thoiry-Centre commercial (1401257-2)
+FRANCE -> Veigy-Douane (1401326-1)
+FRANCE -> Archamps-Pont de Combe (1401637-1)
+FRANCE -> Archamps-Pont de Combe (1401637-3)
+FRANCE -> Saint-Julien-Gare (1401639-1)
+FRANCE -> Saint-Julien-Gare (1401639-2)
+FRANCE -> Saint-Julien-Hôpital (1401640-1)
+FRANCE -> Saint-Julien-Hôpital (1401640-2)
+FRANCE -> Challex-Ecole (1401647-1)
+FRANCE -> Challex-La Halle (1401649-1)
+FRANCE -> Poizat (1401650-1)
+FRANCE -> Poizat (1401650-2)
+FRANCE -> Challex-Eglise (1401651-1)
+FRANCE -> Corbière (1401652-1)
+FRANCE -> Corbière (1401652-2)
+FRANCE -> Fontanettes (1401654-1)
+FRANCE -> Fontanettes (1401654-2)
+FRANCE -> Gaillardin (1401655-1)
+FRANCE -> Les Baraques (1401656-1)
+FRANCE -> Cessy-Centre (1401678-1)
+FRANCE -> Cessy-Centre (1401678-2)
+FRANCE -> Cessy-Les Hauts (1401679-1)
+FRANCE -> Cessy-LesHauts (1401679-2)
+FRANCE -> Cessy-Saint-Denis (1401682-1)
+FRANCE -> Cessy-Côte du Moralay (1401684-1)
+FRANCE -> Archamps-Centre de convention (1401702-1)
+FRANCE -> Archamps-Centre de convention (1401702-2)
+FRANCE -> Archamps-Communauté-Communes (1401703-1)
+FRANCE -> Archamps-Communauté-Communes (1401703-2)
+FRANCE -> Collonges-Bourg d'en Haut (1401711-1)
+FRANCE -> Collonges-Mairie (1401712-1)
+FRANCE -> Collonges-Mairie (1401712-2)
+FRANCE -> Ferney-Avenue du Jura (1401732-1)
+FRANCE -> Ferney-Avenue du Jura (1401732-2)
+FRANCE -> Ferney-Bois Candide (1401733-2)
+FRANCE -> Ferney-Brunette (1401734-1)
+FRANCE -> Ferney-Brunette (1401734-2)
+FRANCE -> Ferney-Château (1401735-1)
+FRANCE -> Ferney-Château (1401735-2)
+FRANCE -> Ferney-Jargilières (1401737-1)
+FRANCE -> Ferney-Jargilières (1401737-2)
+FRANCE -> Ferney-Planche-Brûlée (1401740-1)
+FRANCE -> Ferney-Planche-Brûlée (1401740-2)
+FRANCE -> Gex-GeorgesCharpak (1401755-1)
+FRANCE -> Gex-Georges Charpak (1401755-2)
+FRANCE -> Gex-L'Aiglette (1401756-1)
+FRANCE -> Gex-L'Aiglette (1401756-2)
+FRANCE -> Ornex-Fruitière (1401767-1)
+FRANCE -> Ornex-Fruitière (1401767-2)
+FRANCE -> Ornex-Les-Roussets (1401768-1)
+FRANCE -> Ornex-Les-Roussets (1401768-2)
+FRANCE -> Ornex-Prénépla (1401769-1)
+FRANCE -> Ornex-Prénépla (1401769-2)
+FRANCE -> Prevessin-Bretonnière (1401777-1)
+FRANCE -> Prévessin-Collège Le Joran (1401778-1)
+FRANCE -> Prévessin-Collège Le Joran (1401778-2)
+FRANCE -> Prévessin-Hauts-de-Magny (1401779-1)
+FRANCE -> Prévessin-Hauts-de-Magny (1401779-2)
+FRANCE -> Prévessin-Les Aglands (1401780-1)
+FRANCE -> Prévessin-Les Aglands (1401780-2)
+FRANCE -> Prévessin-Terraillet (1401783-1)
+FRANCE -> Prévessin-Terraillet (1401783-2)
+FRANCE -> Saint-Genis-CERN Alice (1401787-1)
+FRANCE -> Saint-Genis-CERNAlice (1401787-2)
+FRANCE -> Saint-Genis-Champ-Fusy (1401788-1)
+FRANCE -> Saint-Genis-Champ-Fusy (1401788-2)
+FRANCE -> Saint-Genis-Hautains (1401790-1)
+FRANCE -> Saint-Genis-Hautains (1401790-2)
+FRANCE -> Saint-Genis-Lion (1401791-1)
+FRANCE -> Saint-Genis-Mitterrand (1401792-1)
+FRANCE -> Saint-Genis-Mitterrand (1401792-2)
+FRANCE -> Arande (1401795-1)
+FRANCE -> Arande (1401795-2)
+FRANCE -> Dr Palluel (1401796-1)
+FRANCE -> Dr Palluel (1401796-2)
+FRANCE -> Saint-Julien-Hutins (1401797-2)
+FRANCE -> Ségny-Centre (1401800-1)
+FRANCE -> Ségny-Centre (1401800-2)
+FRANCE -> Sergy-Centre (1401801-1)
+FRANCE -> Sergy-Centre (1401801-2)
+FRANCE -> Sergy-Les Longets (1401802-1)
+FRANCE -> Thoiry-Gare (1401807-1)
+FRANCE -> Thoiry-Gare (1401807-2)
+FRANCE -> Thoiry-Place en Poulet (1401808-1)
+FRANCE -> Thoiry-Place en Poulet (1401808-2)
+FRANCE -> Tougin-Hôpital (1401811-1)
+FRANCE -> Tougin-Hôpital (1401811-2)
+FRANCE -> Viry-P+R (1401846-1)
+FRANCE -> Saint-Julien SNCF (1401852-1)
+FRANCE -> Saint-Julien SNCF (1401852-2)
+FRANCE -> Saint-Julien SNCF (1401852-3)
+FRANCE -> Annemasse-Parc Montessuit (8595358-1)
+FRANCE -> Croix d'Ambilly (8595364-1)
+FRANCE -> Croix d'Ambilly (8595364-2)
+FRANCE -> Gare-Rotonde (8595771-2)
+FRANCE -> Gare-Rotonde (8595771-1)
+FRANCE -> Thoiry-Mairie (8755607-1)
+FRANCE -> Thoiry-Mairie (8755607-2)
+FRANCE -> Gex-Vertes Campagnes (8755691-1)
+FRANCE -> Gex-Vertes Campagnes (8755691-2)
+FRANCE -> Maconnex-Arcades (8769158-1)
+FRANCE -> Maconnex-Arcades (8769158-2)
+FRANCE -> Thoiry-Place d'Allemogne (8769399-1)
+FRANCE -> Thoiry-Place d'Allemogne (8769399-2)
+FRANCE -> Saint-Genis-Porte de France (8771695-1)
+FRANCE -> Saint-Genis-Porte de France (8771695-2)
+PAS POSSIBLE (problème avec abstreet) -> Compesières (8587050-2)
+PAS POSSIBLE (pas de trottoirs mais des transit-platform) -> Athenaz-Passeiry (8592638-1)
+PAS POSSIBLE (les gens descendent vraiment dans l'herbe ????) -> Chemin des Clys (8592645-2)
+PAS POSSIBLE (sous un bâtiment) -> Palexpo-Halle 7 (8592937-2)
+PAS POSSIBLE (il faudrait changer complètement OSM -> c'est à cause de abstreet) ->  Moillesulaz (8593118-1)
+PAS POSSIBLE (les arrêts sont sur un parking irl) -> Aéroport P47 (8596098-1)
+PAS POSSIBLE (les arrêts sont sur un parking irl) -> Aéroport P47 (8596098-2)
+
+FRANCE -> 63a: Couldn't find a Bus border near end Pt2D(6250.7734, 25241.9921)
+FRANCE -> 63b: Couldn't find a Bus border near start Pt2D(6250.7734, 25241.9921)
+FRANCE (étrangement la 66a est importée mais son tracé est ridicule) -> 66b: can't fulfill PathRequest(211.7546m along Lane #467842... to 176.1328m along Lane #486274 for Bus)
+PAS POSSIBLE (problème avec abstreet) -> E+a: Transit route will warp from Position(Lane #375427, 26.4921m) to Position(Lane #375426, 26.4921m)
+FRANCE (un seul arrêt en suisse lol) -> Ma: Couldn't find a Bus border near start Pt2D(10770.9256, 25241.9921)
+FRANCE (un seul arrêt en suisse lol) -> Mb: Couldn't find a Bus border near end Pt2D(10751.4823, 25241.9921)
+FRANCE -> Na: No valid stops
+FRANCE -> Nb: No valid stops
+
+??? -> Couldn't snap route 92-56-j22-1 (56a): Two consecutive stops are on the same road, but they travel backwards: PathRequest(194.5077m along Lane #178561... to 52.6334m along Lane #178561 for Bus)
+??? -> Couldn't snap route 92-56-j22-2 (56b): Transit route will warp from Position(Lane #304353, 25.6972m) to Position(Lane #304352, 26.2623m)
+PROBLEME AVEC LES BORDURES -> Couldn't snap route 92-63-A-j22-1 (63a): Couldn't find a Bus border near end Pt2D(6250.7734, 25241.9921)
+PROBLEME AVEC LES BORDURES -> Couldn't snap route 92-63-A-j22-2 (63b): Couldn't find a Bus border near start Pt2D(6250.7734, 25241.9921)
+FRANCE -> Couldn't snap route 92-66-A-j22-2 (66b): can't fulfill PathRequest(211.7546m along Lane #467810... to 176.1328m along Lane #486242 for Bus)
+FRANCE -> Couldn't snap route 92-68-j22-1 (68a): No valid stops
+FRANCE -> Couldn't snap route 92-68-j22-2 (68b): No valid stops
+PROBLEME AVEC UNE INTERESCTION -> Couldn't snap route 92-E+-j22-1 (E+a): Transit route will warp from Position(Lane #375395, 26.4921m) to Position(Lane #375394, 26.4921m)
+FRANCE -> Couldn't snap route 92-M-j22-1 (Ma): Couldn't find a Bus border near start Pt2D(10770.9256, 25241.9921)
+FRANCE -> Couldn't snap route 92-M-j22-2 (Mb): Couldn't find a Bus border near end Pt2D(10751.4823, 25241.9921)
+FRANCE -> Couldn't snap route 92-N-j22-1 (Na): No valid stops
+FRANCE -> Couldn't snap route 92-N-j22-2 (Nb): No valid stops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+ 1- copier center.poly dans "importer/config/ch/geneva/center.poly" (coordonnées à utiliser pour charger la carte)
+        boundary
+        1
+             5.95184326171875    46.126556302418514
+             6.315765380859374    46.126556302418514
+             6.315765380859374    46.35356299155248
+             5.95184326171875    46.35356299155248
+             5.95184326171875    46.126556302418514
+        END
+        END
+
+ 2- liste des principaux bugs corrigés dans A/B Street :
+        - importer/src/map_config.rs L.82 (pour importer le gtfs tpg.zip)
+                else if name.city == CityName::new("ch", "geneva") {
+                        Some("https://malaspinas.academy/gtfs/tpg.zip".to_string())
+                }
+
+        - map_model/src/make/transit.rs L.28 (emplacement des stops -> 10m)
+                Distance::meters(10.0),
+
+        - map_model/src/pathfinding/walking.rs 
+                L.201 (problème avec un assert!)
+                        //assert!(!possible_routes.is_empty());
+
+                L.224 (problème avec le pathfinding des piétons qui sortent du bus)
+                        Some(last_stop?),
+        
+        - convert_osm/src/exctract.rs L.501 (ajouter des trottoirs des 2 cotés des trams)
+                if tags.is_any(osm::HIGHWAY, vec!["service"]) {
+                        tags.insert(osm::SIDEWALK, "both");
+                }
+        
+        - convert_osm/src/gtfs.rs L.95 (soucis sur les polylines qui dump certains trajets)
+                /*match PolyLine::new(pts) {
+                        Ok(pl) => {
+                                route.shape = pl;
+                                transit_routes.push(route);
+                        }
+                        Err(err) => {
+                                warn!("Route {} has a weird shape: {}", route.gtfs_id, err);
+                                continue;
+                        }
+                }*/
+                route.shape = PolyLine::unchecked_new(pts);
+                transit_routes.push(route);
+        
+        - sim/src/mechanics/driving.rs L.1325 (un soucis sur des distances)
+                /*Err(err) => println!(
+                        "At {}, invalid dist_along of {} for queue {}: {}",
+                        now, entry.front, queue.id, err),*/
+                Err(_) => Pt2D::new(0.0, 0.0)
+
+        - sim/src/make/spawner.rs L.73 (personnes qui ne spawn pas bien)
+
+        - sim/src/mechanics/queue.rs L.200 (collisions bus-voiture)
+
+        - sim/src/mechanics/driving.rs L.246 (un soucis louche)
+
+

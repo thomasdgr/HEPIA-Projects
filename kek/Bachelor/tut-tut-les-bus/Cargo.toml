@@ -1,0 +1,17 @@
+[package]
+name = "gtfs_parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1"
+sublime_fuzzy = "0.7.0"
+unidecode = "0.3.0"
+anyhow = { version = "1.0.57", default-features = false }
+csv = "1.1"
+plotters = "0.3"
+fast-float = "0.2"
+
+[lib]
+name = "gtfs"
+path = "src/gtfs/src/lib.rs"

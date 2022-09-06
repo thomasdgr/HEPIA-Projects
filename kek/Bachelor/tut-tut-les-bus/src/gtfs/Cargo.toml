@@ -1,0 +1,15 @@
+[package]
+name = "gtfs"
+version = "0.1.0"
+edition = "2022"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
+sublime_fuzzy = "0.7.0"
+unidecode = "0.3.0"
+anyhow = { version = "1.0.57", default-features = false }
+csv = "1.1"
+plotters = "0.3"
+fast-float = "0.2"
