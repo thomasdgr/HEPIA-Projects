@@ -1,0 +1,114 @@
+/*package ch.hepia.scala.eval2
+
+/*
+ * Représente un arbre binaire avec les contraintes suivantes:
+ *   - structure de données immutable
+ *   - les valeurs sont des nombres entiers dans les feuilles
+ *   - pas de valeurs dans les noeuds
+ *   - L'arbre peut être vide
+ *   - Un noeud ne peut pas contenir d'arbre vide
+ * */
+enum Tree {
+  /* Remplacer par une meilleure representation */
+  case Elem( left: Tree, right: Tree, leaf: Int )
+  case Empty
+
+  def isEmpty = this match {
+    case Elem(_,_,_) => false
+    case Empty => true
+  }
+
+  /*
+   * Retourne le nombre de feuilles de l'arbre
+   * (en excluant les noeuds intermédiaires).
+   */
+  def size: Int = {
+    def loop(n: Int, cur: Tree): Int =
+      if(cur.isEmpty) n else {
+        var Elem(l,r,_) = cur
+        loop(n+1,l) + loop(n+1,r)
+      }
+    loop(0,this)
+  }
+
+  /*
+   * Returne la profondeur de l'arbre: la longueur du plus long chemin entre la
+   * racine et une des feuilles.
+   * Un arbre vide a une profondeur de 0, une feuille une profondeur de 1,
+   * un noeud avec deux feuilles a une profondeur de 2, etc.
+   */
+   def depth: Int = {
+      def loop(current_max: Int,n: Int, cur: Tree): Int = cur match{
+        case Empty => if(n > current_max) n else current_max
+        case Elem(l,r,_) => 
+        val left_max_value=  loop(n+1,current_max,l)
+        val rigth_max_value = loop(n+1,current_max,r)
+        if(left_max_value > rigth_max_value) left_max_value else  rigth_max_value
+      }
+      loop(0,0,this)
+   }
+
+  /*
+   * Join deux arbres binaires en créant un nouveau noeud si nécéssaire.
+   * 'this' devient la branche de gauche et 'that' la branche de droite.
+   * ATTENTION: un noeud ne peut pas contenir un arbre vide (cf. tests)
+   */
+  def join( that: Tree ): Tree = Tree.Elem(this, that, 0)
+/*
+ * Opère une rotation à droite: le premier noeud à gauche devient la
+ * nouvelle racine.
+ *
+ *      /  \                      /  \
+ *     / \  3  .rotateRight ->   1  / \
+ *    1   2                        2   3
+ * Si l'opération est impossible, l'arbre est retourné tel quel
+ */
+  def rotateRight: Tree = this
+
+  /*
+   * Retourne vrai si au moins une des feuille de l'arbre
+   * contient l'élément 'i'.
+   */
+  def contains( i: Int ): Boolean = {
+    def loop(cur: Tree): Boolean = cur match {
+      case Elem(_, _,v) if(i == v) => true 
+      case Elem(l,_,_) if(loop(l)) => true 
+      case Elem(_,r,_) if(loop(r)) => true
+      case Elem(_,_,_) => false
+    }
+    loop(this)
+  }
+
+  /*
+   * Supprime toutes les occurences de 'i' parmis les
+   * feuilles de l'arbre. Si l'élément n'apparait pas,
+   * l'arbre est retourné tel quel.
+   * La structure de l'arbre doit être préservée au mieux.
+   *
+   *   /    \                     / \
+   *  / \  / \  .remove(1) ->    2   3
+   * 1  2  3  1
+   *
+   */
+  def remove( i: Int ):Tree = {
+    def loop(i: Int, cur: Tree): Tree = cur match{
+      case Empty => cur
+      case Elem(l,r, j) => 
+        if(j == 0) cur(loop(i,l), loop(i,r), j)
+        else if(j == i) Empty 
+        else cur
+    }
+  }
+
+}
+
+object Tree {
+  /*
+   * Crée un arbre vide
+   */
+  def empty: Tree = Empty
+  /*
+   * Crée un arbre avec un seul élément: une feulle.
+   */
+  def single( i: Int ): Tree = Empty
+}*/
