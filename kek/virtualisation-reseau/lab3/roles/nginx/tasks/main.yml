@@ -1,0 +1,19 @@
+---
+- name: update package
+  apt:
+    update_cache: yes
+    force_apt_get: yes
+    cache_valid_time: 3600
+- name: nginx package is present
+  apt:
+    name: nginx
+    state: latest
+- name: create index.html from j2 template
+  ansible.builtin.template:
+    src: index.j2
+    dest: /var/www/html/index.html
+
+- name: start nginx server
+  service:
+    name: nginx
+    state: started

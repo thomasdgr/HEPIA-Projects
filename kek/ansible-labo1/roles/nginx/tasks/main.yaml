@@ -1,0 +1,12 @@
+  - name: install nginx
+    apt:
+      name: nginx 
+      update_cache: yes
+
+  - name: load index file
+    template: 
+      src: templates/index.html.template
+      dest: /var/www/html/index.html
+    notify:
+      - restart nginx
+

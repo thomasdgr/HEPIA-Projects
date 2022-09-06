@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <body>
+    <p>Hello there! General {{content}}</p>
+  <body>
+</html>

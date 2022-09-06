@@ -1,0 +1,26 @@
+- name: r1 config
+  hosts: r1
+  become: yes
+  vars:
+    - h1_addr: 10.0.1.1
+    - h2_addr: 10.0.3.1
+  tasks:
+    - name: port fowarding
+      ansible.posix.sysctl:
+        name: net.ipv4.ip_forward
+        value: "1"
+        sysctl_set: yes
+        state: present
+        reload: yes
+    - name: interface eth1 config
+      template:
+        src: templates/r_eth1.template
+        dest: /etc/network/interfaces.d/eth1
+    - name: interface eth2 config
+      template:
+        src: templates/r_eth2.template
+        dest: /etc/network/interfaces.d/eth2
+    - name: reload config
+      service: 
+        name: networking
+        state: restarted

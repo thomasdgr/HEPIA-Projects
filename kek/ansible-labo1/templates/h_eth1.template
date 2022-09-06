@@ -1,0 +1,6 @@
+auto eth1
+allow-hotplug eth1
+iface eth1 inet static
+	address {{h_addr}}
+	netmask 255.255.255.0
+up ip route add {{subnet}} via {{r1_addr}}

@@ -1,0 +1,5 @@
+auto eth2
+allow-hotplug eth2
+iface eth2 inet static
+	address {{h2_addr}}
+	netmask 255.255.255.0

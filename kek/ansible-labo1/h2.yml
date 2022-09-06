@@ -1,0 +1,20 @@
+- name: h2 config
+  hosts: h2
+  become: yes
+  vars:
+    - content: Kenobi
+    - h_addr: 10.0.3.2
+    - subnet: 10.0.1.0/24
+    - r1_addr: 10.0.3.1
+  tasks:
+    - name: interface eth1 config
+      template: 
+        src: templates/h_eth1.template
+        dest: /etc/network/interfaces.d/eth1
+    - name: reload config
+      service:
+        name: networking
+        state: restarted
+  roles:
+    - role: nginx
+      tags: nginx_deploy
