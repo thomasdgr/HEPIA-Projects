@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"backend","dependencies":{"cors":{"version":"2.8.5"},"express":{"version":"4.17.1"},"mocha":{"version":"9.2.1"},"node":{"version":"17.5.0"},"redis":{"version":"4.0.4"},"socket.io":{"version":"4.4.1"}}}

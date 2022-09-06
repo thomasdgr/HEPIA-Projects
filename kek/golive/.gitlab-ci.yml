@@ -1,0 +1,10 @@
+image: golang:latest
+
+# POUR METTRE EN CACHE DES DOSSIERS SI ON A PAS BESOIN DE LES RELANCER ENTRE LES TESTS
+#cache:
+#    paths:
+#    - folder/
+
+test:
+    script:
+    - go test
